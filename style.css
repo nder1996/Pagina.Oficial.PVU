@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
 .Principal {
   overflow: hidden;
+}
+
+nav {
+  background-color: #fafaf9 !important;
+}
+
+nav li a {
+  color: #3f87b3 !important;
+  font-family: Poppins;
 }
 
 .navbar-brand img {
@@ -8,6 +20,22 @@
   height: 47px;
   left: 35px;
   top: 12px;
+}
+
+nav button {
+  background-color: #3f87b3 !important;
+  border-radius: 5px;
+  outline: none;
+}
+
+.navbar-brand span {
+  margin-left: 70px;
+  color: #3f87b3 !important;
+  font-family: Poppins;
+}
+
+.Portada {
+  background-color: #fafaf9;
 }
 
 .Portada img {
@@ -35,6 +63,69 @@
   left: 2px;
   top: -150px;
   z-index: 1;
-   transform: scale(1.11,0.9);
+  transform: scale(1.11, 0.9);
   #background: rgba(247, 156, 65, 0.2);
+}
+
+.txt_portada {
+  position: absolute;
+  z-index: 110;
+  top: 180px;
+  left: 100px;
+  width: 590px;
+  #border: 5px solid red;
+  color: black !important;
+}
+
+.txt_portada .txt_1 {
+  width: 195px;
+  height: 31px;
+  left: 135px;
+  top: 230px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 155.2%;
+  color: #F79C41;
+}
+
+.txt_portada .txt_2 {
+  width: 479.63px;
+  height: 78px;
+  left: 135px;
+  top: 278px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 155.2%;
+  /* identical to box height, or 78px */
+  color: #222222;
+}
+
+.txt_portada .txt_3 {
+  width: 527px;
+  height: 101px;
+  left: 135px;
+  top: 367px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  /* or 32px */
+  color: #333333;
+}
+.txt_portada button{
+  width: 195px;
+height: 53px;
+left: 135px;
+top: 530px;
+color:white;
+
+/* Astral */
+
+background: #3380AF;
+border-radius: 6px;
 }
