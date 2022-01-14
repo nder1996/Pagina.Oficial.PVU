@@ -5,13 +5,28 @@
   background: #E5E5E5;
 }
 
+
+
 nav {
   background-color: #fafaf9 !important;
+}
+
+nav li {
+  position: relative;
+  right: 50px;
+  margin-left: 40px;
+  #border: 6px solid red;
+  #padding-left: 100px;
 }
 
 nav li a {
   color: #3f87b3 !important;
   font-family: Poppins;
+}
+
+.punto_home {
+  #border:5px solid red;
+
 }
 
 .navbar-brand img {
@@ -20,6 +35,13 @@ nav li a {
   height: 47px;
   left: 35px;
   top: 12px;
+}
+
+.navbar-brand span {
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  #border: 5px solid red;
 }
 
 nav button {
@@ -34,6 +56,24 @@ nav button {
   font-family: Poppins;
 }
 
+nav .Contact {
+  #border: 5px solid red;
+  background-color: rgb(51, 128, 175);
+  border-radius: 6px;
+}
+
+nav .Contact button {
+  width: 131.77px;
+  height: 41.34px;
+  outline: none;
+  border: none;
+}
+
+nav .Contact a {
+  font-family: Inter, sans-serif !important;
+}
+
+/*
 .Portada {
   background-color: #fafaf9;
 }
@@ -100,7 +140,7 @@ nav button {
   font-weight: bold;
   font-size: 50px;
   line-height: 155.2%;
-  /* identical to box height, or 78px */
+   identical to box height, or 78px
   color: #222222;
 }
 
@@ -114,7 +154,7 @@ nav button {
   font-weight: 500;
   font-size: 16px;
   line-height: 200%;
-  /* or 32px */
+  /* or 32px
   color: #333333;
 }
 
@@ -124,7 +164,7 @@ nav button {
   left: 135px;
   top: 530px;
   color: white;
-  /* Astral */
+  /* Astral
   background: #3380AF;
   border-radius: 6px;
 }
@@ -225,7 +265,7 @@ nav button {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
+  /* identical to box height
   color: #F8F8F8;
 }
 
@@ -278,7 +318,7 @@ nav button {
   font-weight: 500;
   font-size: 44px;
   line-height: 66px;
-  /* identical to box height */
+  /* identical to box height
   color: #333333;
 }
 
@@ -288,7 +328,7 @@ nav button {
   font-weight: normal;
   font-size: 24px;
   line-height: 187.5%;
-  /* or 45px */
+  /* or 45px
   color: #525252;
 }
 
@@ -318,7 +358,7 @@ nav button {
   height: 200px;
   left: 183px;
   top: 109px;
-  /* Astral */
+  /* Astral
   background: #3380AF;
   border-radius: 10px;
   justify-content: center;
