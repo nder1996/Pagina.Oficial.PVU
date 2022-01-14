@@ -2,11 +2,9 @@
 
 .Principal {
   overflow: hidden;
-  background: #E5E5E5;
 }
 
-
-
+/*--------------Navbar-------------------------*/
 nav {
   background-color: #fafaf9 !important;
 }
@@ -17,6 +15,7 @@ nav li {
   margin-left: 40px;
   #border: 6px solid red;
   #padding-left: 100px;
+  cursor: pointer;
 }
 
 nav li a {
@@ -25,8 +24,7 @@ nav li a {
 }
 
 .punto_home {
-  #border:5px solid red;
-
+  #border: 5px solid red;
 }
 
 .navbar-brand img {
@@ -71,6 +69,124 @@ nav .Contact button {
 
 nav .Contact a {
   font-family: Inter, sans-serif !important;
+}
+
+/*---------------------------------------*/
+/*----------------Portada------------------------*/
+.Portada {
+  position:absolute;
+  #border: 10px solid red;
+  background-color: #fafaf9 !important;
+  width: 100%;
+  height: 600px;
+}
+
+.Portada section {
+  #border: 5px solid purple;
+  width: 50% !important;
+}
+
+.Portada img {
+  position:absolute;
+  top:7%;
+  #border:5px solid red;
+  width: 45%;
+  left:45%;
+  z-index:100;
+}
+
+.Portada .txt_portada section {
+  margin-left: 4.5%;
+  margin-top: 15%;
+  #border: 5px solid blue;
+  width: 80% !important;
+}
+
+.Portada .txt_1 {
+  font-family: Poppins;
+  font-size: 2vw;
+  color: #F79C41;
+
+}
+
+.txt_portada .txt_2 {
+  position:relative;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  color: #222222;
+  z-index:1000;
+}
+
+.txt_portada .txt_3 {
+  position:absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #333333;
+
+}
+
+.txt_portada button {
+  position:absolute;
+  font-size: 17px;
+  width: 195px;
+  height: 53px;
+  color: white;
+  background: #3380AF;
+  border-radius: 6px;
+  border: 0;
+  outline: none;
+  z-index:1000;
+}
+
+
+.Portada .svg_1 {
+  #border:5px solid red;
+  left:10%;
+  position:relative;
+  width: 100%;
+  height: 265px;
+  right: 15%;
+  top: -5.8%;
+  #z-index: 1;
+}
+
+.Portada .svg_2 {
+  position: relative;
+  width: 200%;
+  height: 546.5px;
+  right: 98%;
+  top: -150px;
+  z-index: 1;
+  transform: scale(1.11, 0.9);
+  #background: rgba(247, 156, 65, 0.2);
+}
+
+
+
+
+/*
+.Portada .img_portada {
+  width: 50%;
+}
+
+/*----------------Portada------------------------*/
+/*
+.Portada .img_portada{
+  border:6px solid black;
+  width: 100%;
+}
+/*
+.Portada .img_portada img {
+  position: relative;
+  width: 50%;
+  height: 590px;
+  left: 700px;
+  top: -167px;
+  z-index: 100;
 }
 
 /*
