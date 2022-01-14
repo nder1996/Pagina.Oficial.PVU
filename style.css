@@ -253,29 +253,143 @@ nav button {
 }
 
 .Collaborations {
-  margin:auto;
+  margin: auto;
   border: 5px solid black;
   width: 1216px;
   height: 457px;
 }
 
-.Collaborations section{
-
-}
+.Collaborations section {}
 
 .Collaborations img {
-  #border:5px solid red;
+  #border: 5px solid red;
   width: 379px;
-height: 447px;
+  height: 447px;
 }
 
-.Collaborations .envio_datos{
-  background-color:#F79C41;
+.Collaborations .envio_datos {
+  background-color: #F79C41;
   width: 80%;
 }
 
-#upload-photo {
-   opacity: 0;
-   position: absolute;
-   z-index: -1;
+.Collaborations .envio_datos h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 66px;
+  /* identical to box height */
+  color: #333333;
 }
+
+.Collaborations .envio_datos h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 187.5%;
+  /* or 45px */
+  color: #525252;
+}
+
+.txt_info {
+  width: 763px;
+  height: 147px;
+  margin: auto;
+}
+
+.btn_send {
+  width: 131.77px;
+  height: 41.34px;
+  background: #3380AF;
+  border-radius: 6px;
+}
+
+.btn_enviar {
+  margin: auto;
+  # border: 5px solid black;
+  text-align: center;
+  width: 763px;
+}
+
+.subscribe {
+  margin: auto;
+  width: 1224px;
+  height: 200px;
+  left: 183px;
+  top: 109px;
+  /* Astral */
+  background: #3380AF;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe section {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  width: 50%;
+  #border: 5px solid black;
+}
+
+.txt_input {
+  width: 510px;
+  height: 72px;
+  #border: 6px solid red;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.btn_subcribe {
+  #border: 5px solid red;
+  position: absolute;
+  left: 70%;
+  width: 200px;
+  height: 50px;
+  background: #3380AF;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+}
+
+.footer {
+  margin: auto;
+  width: 80%;
+  border-bottom: 1px solid black;
+}
+
+.footer ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  color: #3f87b3 !important;
+  font-family: Poppins;
+}
+
+.footer section {
+  #border: 5px solid black;
+  width: 50%;
+}
+
+.footer section i {
+  margin-left: 25px;
+  font-size: 20px !important;
+}
+
+.end_page {
+  font-size: 14px;
+  margin: auto;
+  width: 80%;
+  #border: 5px solid red;
+}
+
+.end_page img {
+  width: 76px;
+  height: 76px;
+}
+
+.end_page p {}
