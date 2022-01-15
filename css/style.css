@@ -2,6 +2,7 @@
 
 .Principal {
     overflow: hidden;
+    background-color: #f9f9f8 !important;
 }
 
 
@@ -80,7 +81,7 @@ nav {
 
     .Presentacion .txt_portada {
         position: absolute;
-       # border: 4px solid red;
+        # border: 4px solid red;
         margin-left: 5%;
         margin-top: 5%;
         width: 33% !important;
@@ -88,61 +89,84 @@ nav {
     }
 
     .Presentacion .txt_1 {
-    font-family: Poppins;
-    font-size: 2vw;
-    color: #F79C41 !important;
-  }
+        font-family: Poppins;
+        font-size: 2vw;
+        color: #F79C41 !important;
+    }
 
-  .Presentacion .txt_2 {
-    position: relative;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    color: #222222;
-    z-index: 1000;
-  }
+    .Presentacion .txt_2 {
+        position: relative;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        color: #222222;
+        z-index: 1000;
+    }
 
-  .Presentacion .txt_3 {
-    position: absolute;
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 200%;
-    color: #333333;
-  }
-
-
-  .Presentacion .caricatura{
-    position: absolute;
-    width: 45%;
-    height: 540px;
-    left: 48%;
-    top: 23%;
-    #border: 5px solid blue;
-  }
+    .Presentacion .txt_3 {
+        position: absolute;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 200%;
+        color: #333333;
+    }
 
 
-   /*----------------Portada------------------------*/
-
-   .secundario{
-    border: 6px solid blue;
-   }
-
-   .secundario .Portafolio{
-    border: 5px solid red;
-   }
-
-   .Portafolio section{
-    border: 5px solid purple;
-    width: 50%;
-   }
+    .Presentacion .caricatura {
+        position: absolute;
+        width: 45%;
+        height: 540px;
+        left: 48%;
+        top: 23%;
+        #border: 5px solid blue;
+    }
 
 
+    /*----------------Portada------------------------*/
+
+    .secundario{
+      background-color: #f9f9f8 !important;
+        #border: 1px solid blue;
+    }
+
+    .secundario .Portafolio {
+      background-color: #f9f9f8 !important;
+       # border: 5px solid red;
+        width: 100%;
+        height: 490px;
+    }
+
+    .Portafolio section {
+       # border: 5px solid purple;
+        width: 50%;
+    }
 
 
+    .Portafolio section h1 {
+        position: relative;
+        margin-top: 55px;
+        left: 100px;
+        font-family: Poppins;
+        font-size: 72px;
+    }
 
-   /*
+    .Portafolio section p {
+        position: relative;
+        top: 10px !important;
+        left: 25%;
+        width: 32%;
+        font-size: 22px;
+    }
+
+    .Portafolio img {
+        width: 100%;
+        height: 470px;
+    }
+
+
+    /*
   .Portafolio {
     position: relative;
     # border: 5px solid red;
