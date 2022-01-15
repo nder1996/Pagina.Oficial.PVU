@@ -3,11 +3,13 @@ $(document).ready(function() {
        /*alert('ola mundo')*/
 
 
-if (window.matchMedia('(min-width: 1910px)').matches)
+if (window.matchMedia('(max-width: 1190px)').matches)
 {
+
+
      /*  alert('ola mundo')*/
        
-     /*$(".svg_2").css({"transform": "scale(1.40, 1.4)","border": "5px solid blue",'width':"","right":"100%","height":"300px"});*/
+     $(".Principal").css({"background-color": "blue !important"});
 
     // do functionality on screens smaller than 768px
 }

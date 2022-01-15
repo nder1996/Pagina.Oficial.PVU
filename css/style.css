@@ -2,9 +2,28 @@
 
 .Principal {
     overflow: hidden;
+
     background-color: #f9f9f8 !important;
 }
 
+@media (max-width: 1100px) {
+
+    .Principal {
+        display: none;
+    }
+
+    .mantenimiento {
+        position: relative;
+        margin-top: 50%;
+       # margin: auto;
+        width: 100%;
+        display: block;
+       # border: 5px solid red;
+    }
+
+
+
+}
 
 
 /*--------------Navbar-------------------------*/
@@ -13,6 +32,11 @@ nav {
 }
 
 @media (min-width: 1200px) {
+
+    .mantenimiento {
+        display: none;
+    }
+
     nav li {
         position: relative;
         right: 50px;
@@ -185,7 +209,7 @@ nav {
         line-height: 187.5%;
     }
 
-      .Publicidad_Img p {
+    .Publicidad_Img p {
         font-family: Poppins;
         #font-style: normal;
         #font-weight: 600;
@@ -193,23 +217,23 @@ nav {
         line-height: 187.5%;
     }
 
-    .Galeria{
-      #border: 5px solid red;
+    .Galeria {
+        #border: 5px solid red;
     }
 
-    .Galeria section{
-      width: 100%;
-      margin-top: 1%;
-      #border: 5px solid blue;
-      justify-content: center;
+    .Galeria section {
+        width: 100%;
+        margin-top: 1%;
+        #border: 5px solid blue;
+        justify-content: center;
     }
 
-    .Galeria section img{
-      width: 23%;
-      height: 200px;
-      margin-left: 5%;
-      border-radius: 26px ;
-    } 
+    .Galeria section img {
+        width: 23%;
+        height: 200px;
+        margin-left: 5%;
+        border-radius: 26px;
+    }
 
 
 
