@@ -15,10 +15,10 @@
     .mantenimiento {
         position: relative;
         margin-top: 50%;
-       # margin: auto;
+        # margin: auto;
         width: 100%;
         display: block;
-       # border: 5px solid red;
+        # border: 5px solid red;
     }
 
 
@@ -239,6 +239,74 @@ nav {
 
 
     /*----------------Publicidad------------------------*/
+
+
+    /*----------------Formulario------------------------*/
+
+    .Formulario {
+        border: 5px solid red;
+        height: 600px;
+    }
+
+    .Formulario form {
+        position: absolute;
+        padding: 40px;
+        left: 140px;
+        background: #C3212C;
+        width: 450px;
+        height: 550px;
+        border-radius: 17px;
+
+    }
+
+    .Formulario img {
+        width: 88%;
+        border-radius: 16px;
+        height: 100%;
+    }
+
+    .Formulario form p {
+        position: relative;
+        border: 1px solid #F79C41;
+        width: 395px;
+        height: 0px;
+    }
+
+    .Formulario form h1 {
+        position: relative;
+        color: #F8F8F8;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 36px;
+
+    }
+
+    .Formulario form h3 {
+        position: relative;
+        font-family: Poppins;
+        font-size: 14px;
+        color: #F8F8F8;
+
+    }
+
+    .Formulario button {
+        color: white;
+        width: 131.77px;
+        height: 41.34px;
+        background: #3f87b3 !important;
+        border-radius: 6px;
+        border: none;
+        outline: none;
+    }
+
+    /*----------------Formulario------------------------*/
+
+
+
+
+
+
+
 
 
 
