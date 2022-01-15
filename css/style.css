@@ -157,7 +157,7 @@ nav {
         width: 45%;
         height: 540px;
         left: 48%;
-        top: 23%;
+        top: 13%;
         #border: 5px solid blue;
     }
 
@@ -442,9 +442,12 @@ nav {
         width: 66% !important;
     }
 
+
+
+
     .btn_subcribe {
         position: absolute;
-        top: 14px;
+        top: 42.8px;
         left: 74%;
         width: 200px;
         height: 50px;
@@ -460,89 +463,58 @@ nav {
     /*----------------subcribe------------------------*/
 
 
-    /*
 
-  .subscribe {
-    margin: auto;
-    width: 1224px;
-    height: 200px;
-    left: 183px;
-    top: 109px;
-    /* Astral
-    background: #3380AF;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .subscribe section {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 48px;
-    width: 50%;
-    #border: 5px solid black;
-  }
+    /*----------------Footer------------------------*/
 
-  .txt_input {
-    width: 510px;
-    height: 72px;
-    #border: 6px solid red;
-    z-index: 1;
-    border-radius: 4px;
-  }
 
-  .btn_subcribe {
-    #border: 5px solid red;
-    position: absolute;
-    left: 70%;
-    width: 200px;
-    height: 50px;
-    background: #3380AF;
-    border-radius: 4px;
-    font-size: 16px;
-    color: white;
-    border-radius: 4px;
-  }
+    .footer {
+        margin: auto;
+        width: 85%;
+        border-bottom:1px solid black;
+    }
 
-  .footer {
-    margin: auto;
-    width: 80%;
-    border-bottom: 1px solid black;
-  }
+    .footer section {
+        width: 49%;
+    }
 
-  .footer ul li {
-    display: inline;
-    list-style: none;
-    margin-left: 15px;
-    color: #3f87b3 !important;
-    font-family: Poppins;
-  }
+    .punto_home {
+        color: #3f87b3 !important;
+    }
 
-  .footer section {
-    #border: 5px solid black;
-    width: 50%;
-  }
+    .footer ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 15px;
+        color: #3f87b3 !important;
+        font-family: Poppins;
+    }
 
-  .footer section i {
-    margin-left: 25px;
-    font-size: 20px !important;
-  }
+    .icons_footer {
+        right: 10px;
+        #border: 5px solid yellow;
+        font-size: 1.5vw !important;
+    }
 
+    .icons_footer i {
+      position: relative;
+      margin-left: 15px;
+
+    }
+
+
+    /*----------------Footer------------------------*/
+
+  /*----------------End_page------------------------*/
   .end_page {
     font-size: 14px;
     margin: auto;
     width: 80%;
-    #border: 5px solid red;
+    #border: 5px solid red !important;
   }
 
   .end_page img {
-    width: 76px;
-    height: 76px;
+    width: 56px;
+    height: 56px;
   }
-
-  .end_page p {}
-
-
-}
+/*----------------End_page------------------------*/
