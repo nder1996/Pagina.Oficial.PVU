@@ -14,11 +14,7 @@
 
     .mantenimiento {
         position: relative;
-        margin-top: 50%;
-        # margin: auto;
-        width: 100%;
-        display: block;
-        # border: 5px solid red;
+        margin: auto;
     }
 
 
@@ -244,14 +240,14 @@ nav {
     /*----------------Formulario------------------------*/
 
     .Formulario {
-        border: 5px solid red;
+        #border: 5px solid red;
         height: 600px;
     }
 
     .Formulario form {
         position: absolute;
         padding: 40px;
-        left: 140px;
+        margin-left: 9%;
         background: #C3212C;
         width: 450px;
         height: 550px;
@@ -302,9 +298,65 @@ nav {
     /*----------------Formulario------------------------*/
 
 
+    /*----------------Colaboracion------------------------*/
+
+    .Collaborations {
+        margin: auto;
+        #border: 4px solid red;
+        width: 85%;
+    }
+
+    .Collaborations section {
+       # border: 5px solid blue;
+        width: 50%;
+        height: 450px !important;
+    }
+
+    .Collaborations img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img_colab {
+        width: 40% !important;
+    }
+
+    .envio_datos {
+        padding: 35px;
+        background-color: #F79C41;
+        width: 100% !important;
+    }
+
+    .btn_send {
+        width: 131.77px;
+        height: 41.34px;
+        background: #3380AF;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        color: #F8F8F8;
+    }
+
+    .Collaborations h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 44px;
+        color: #333333;
+    }
+
+    .Collaborations .txt_datos {
+        font-family: Inter, sans-serif;
+        font-size: 22px;
+        line-height: 187.5%;
+        color: #525252 !important;
+        font-style: normal;
+        font-weight: normal;
+    }
 
 
 
+
+    /*----------------Colaboracion------------------------*/
 
 
 
