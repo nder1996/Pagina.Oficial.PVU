@@ -190,6 +190,12 @@ nav {
     width: 100% !important;
   }
 
+  .title_modal_contact {
+    font-size: 3vw !important;
+    font-family: Poppins;
+    color: #3f87b3 !important;
+  }
+
   .btn_modal{
      background-color: #3f87b3 !important;
      color:white !important;
