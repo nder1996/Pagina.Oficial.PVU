@@ -273,8 +273,8 @@ nav {
 
   .Portafolio .txt_portafolio {
     overflow: hidden !important;
-    border: 5px solid green;
-    width: 40%;
+    #border: 5px solid green;
+    width: 50%;
   }
 
   .Portafolio .dispositivos {
