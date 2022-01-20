@@ -1,16 +1,12 @@
 $(document).ready(function() {
 
-       /*alert('ola mundo')*/
+  $('.nav-link').click(function() {
+     var active = $(this).attr("id");
+     if(active=='pills-contacts-tab'){
+        $('.title_modal_contact').html('<h5 class="title_modal_contact modal-title" id="exampleModalLabel">Contact Us</h5>')
+     }else{
+       $('.title_modal_contact').html('<h5 class="title_modal_contact modal-title" id="exampleModalLabel">Collaborations</h5>')
+     }
+  })
 
-
-if (window.matchMedia('(max-width: 1190px)').matches)
-{
-
-
-     /*  alert('ola mundo')*/
-       
-     $(".Principal").css({"background-color": "blue !important"});
-
-    // do functionality on screens smaller than 768px
-}
 });

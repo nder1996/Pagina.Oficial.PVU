@@ -1,0 +1,226 @@
+
+              <!--
+
+
+
+
+
+              <div class="Formulario Formulario_Navs text-center tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <form action="" class='mt-1'>
+                  <h1 class='text-start'>Contact Us</h1>
+                  <hr>
+                  <h3 class='text-start'>What are you looking to create with us?</h3>
+                  <br>
+                  <section>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"><br>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email"><br>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"><br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                  </section>
+                  <section class='form_submit text-end mt-4'>
+                    <button type="button">Submit</button>
+                  </section>
+                </form>
+                <img class='img-fluid' src="img/Recursos_Humanos.png" alt="">
+              </div>
+              <div class="tab-pane fade Collaborations Collaborations_Navs " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class='d-flex'>
+                  <section class='img_colab text-center'>
+                    <img src="img/web_prueba.png" alt="">
+                  </section>
+
+                  <section class='envio_datos'>
+                    <h1>For Collaborations</h1>
+                    <p class='txt_datos mt-2'>
+                      Do you want to acquire the experience you are looking for <br> with real projects?
+                    </p>
+                    <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+
+                    <p class='btn_enviar mt-3 d-flex justify-content-end'>
+                      <label for="file-upload" class="subir mt-2">
+                        <i class="fas fa-paperclip"></i>&nbsp;&nbsp;&nbsp;Attatch a file
+                      </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input id="file-upload" type="file" style='display: none;' />
+                      <input class='btn_send' type="submit" value="Upload">
+                    </p>
+                  </section>
+
+
+
+                </div>
+
+
+
+
+
+     -->
+
+           -->
+
+
+           /*
+             .Formulario_Navs form {
+               position: relative;
+               width: 420px !important;
+               z-index: 100;
+               right:45% !important;
+               top: 100px !important;
+               height: 520px !important;
+               background-color: rgb(249, 231, 212, 0.9) !important;
+               color:black !important;
+             }
+
+             .Formulario_Navs form h1{
+               color:black !important;
+             }
+
+           .Formulario_Navs form h3{
+             color:black !important;
+           }
+
+             .Formulario_Navs form input,.Formulario_Navs form button {
+               opacity: 0.9;
+             }
+
+             .Formulario_Navs form button{
+               background-color:rgb(247, 156, 65,0.95) !important;
+             }
+
+             .Formulario_Navs form hr {
+               color:black !important;
+             }
+
+             .Formulario_Navs img {
+
+               z-index: 10;
+               position: relative;
+               width: 120% !important;
+               height: 470px !important;
+               left: 3% !important;
+               top:30px !important;
+               border-radius: 0 !important;
+               background-color: black !important;
+             }
+
+             .title_modal_contact {
+               font-size: 3vw !important;
+               font-family: Poppins;
+               color: #3f87b3 !important;
+             }
+
+
+             .Collaborations_Navs {
+               position:relative;
+               top:-110px !important;
+               width: 105% !important;
+               #border:5px solid yellow !important;
+               right:15px !important;
+             }
+
+             .Collaborations_Navs div{
+               position:relative;
+               top:110px !important;
+               border:5px solid purple;
+               width: 60% !important;
+               height: 500px !important;
+             }
+
+             .Collaborations_Navs section{
+               #border:5px solid red;
+               width: 100% !important;
+             }
+
+             .Collaborations_Navs .img_colab{
+               #display:none;
+               #visibility: hidden;
+               position: relative;
+               left: 10% !important;
+               #opacity: 0.5;
+               border:5px solid red;
+               width: 80% !important;
+               height: 520px !important;
+               top:120px !important;
+             }
+
+             .Collaborations_Navs img{
+               display:none;
+               width: 80% !important;
+               height: 525px !important;
+             }
+
+             .Collaborations_Navs .envio_datos{
+               display:none;
+               width: 90% !important;
+               left:4.5% !important;
+               z-index: 100 !important;
+               height: 300px !important;
+               top: 500px !important;
+               padding:15px !important;
+               opacity: 0.95;
+             }
+
+             .Collaborations_Navs h1{
+               font-size:1.5vw !important;
+             }
+
+             .Collaborations_Navs p{
+               margin-top:15px !important;
+               font-size:1vw !important;
+             }
+
+             .Collaborations_Navs textarea{
+
+             }
+
+             .Tabs_modal_content {
+               border-radius: 10px !important;
+               background: #fafaf9 !important;
+               #background-image: url('/img/Humanos_Modal.jpg') !important;
+               #background-repeat: repeat !important;
+               background-position:center !important;
+               background-size : contain !important;
+             }
+
+             .modal-body{
+               position:relative;
+               left: 10%;
+               border:5px solid red !important;
+               height:620px;
+               width:85% !important;
+
+             }*/
+
+
+             <div class="modal modal_tabs fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                 <div class="Tabs_modal_content modal-content">
+                   <div class="modal_header_tabs modal-header">
+                     <h5 class="title_modal_contact modal-title" id="exampleModalLabel">Contact us</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+
+                   <div class="modal_Tabs_Ventana modal-body">
+                     <ul class="nav_ul nav nav-pills mb-3" id="pills-tab" role="tablist">
+                       <li class="nav-item" role="presentation">
+                         <button class="nav-link active" id="pills-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+                             class="ico_contact far fa-address-book"></i></button>
+                       </li>
+                       <li class="nav-item" role="presentation">
+                         <button class="nav-link" id="pills-Collaborations-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-users"></i></button>
+                       </li>
+                     </ul>
+                     <div class="nav_tabs tab-content" id="pills-tabContent">
+
+
+                     </div>
+                   </div>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn_modal btn " data-bs-dismiss="modal">Close</button>
+                   <!--
+         <button type="button" class="btn btn-primary">Save changes</button>
+                    -->
+
+                 </div>
+               </div>
+             </div>

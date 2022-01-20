@@ -16,6 +16,81 @@
 <body>
   <img class="mantenimiento" src="img/Mantenimiento.png" alt="">
   <div class='Principal mb-5'>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title title_modal_contact" id="exampleModalLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="nav nav_modal_tabs nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+                    class="ico_contact far fa-address-book"></i></button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Collaborations-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-users"></i></button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="Formulario formulario_modal tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <form action="" class='mt-1'>
+                  <h1 class='text-start'>Contact Us</h1>
+                  <hr>
+                  <h3 class='text-start'>What are you looking to create with us?</h3>
+                  <br>
+                  <section>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"><br>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email"><br>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"><br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                  </section>
+                  <section class='form_submit text-end mt-4'>
+                    <button type="button">Submit</button>
+                  </section>
+                </form>
+                <img class='img-fluid' src="img/Recursos_Humanos.png" alt="">
+              </div>
+              <div class="tab-pane  fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class='d-flex Collaborations collaborations_modal'>
+                  <section class='img_colab text-center'>
+                    <img src="img/web_prueba.png" alt="">
+                  </section>
+                  <section class='envio_datos'>
+                    <h1>For Collaborations</h1>
+                    <p class='txt_datos mt-2'>
+                      Do you want to acquire the experience you are looking for <br> with real projects?
+                    </p>
+                    <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+
+                    <p class='btn_enviar mt-3 d-flex justify-content-end'>
+                      <label for="file-upload" class="subir mt-2">
+                        <i class="fas fa-paperclip"></i>&nbsp;&nbsp;&nbsp;Attatch a file
+                      </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input id="file-upload" type="file" style='display: none;' />
+                      <input class='btn_send' type="submit" value="Upload">
+                    </p>
+                  </section>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn_modal" data-bs-dismiss="modal">Close</button>
+            <!--
+  <button type="button" class="btn btn-primary">Save changes</button>
+             -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VENTANA MODAL -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light pl-7  pr-7">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -39,11 +114,11 @@
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
+              <a class="nav-link" href="#">Briefcase</a>
             </li>
             <li class="Contact nav-item">
-              <button type="button" name="button">
-                <a class="nav-link text-white" href="#">Contact us</a>
+              <button type="button" name="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Contact us
               </button>
             </li>
           </ul>
@@ -68,14 +143,19 @@
     </div>
     <div class='secundario'>
       <div class='Portafolio d-flex mt-5'>
-        <section>
-          <h1>What we do</h1> <br>
-          <p>Web development <br>
-          <p> <strong>Mobile development </strong><br>
-          <p>UX/UI design</p>
+        <section class='txt_portafolio'>
+          <h1>What we do</h1>
+          <section class='slider_text balls' id='red'>
+            <p>Web development <br>
+            <p> <strong>Mobile development </strong><br>
+            <p>UX/UI design</p>
+            <p>Software development</p>
+            <p>Responsive web design</p>
+          </section>
+
         </section>
-        <section class='text-end'>
-          <img src="img/dispositivos.png" alt="">
+        <section class='dispositivos text-end'>
+          <img src="/img/dispositivos.png" alt="">
         </section>
       </div> <br>
       <div class='Publicidad_Img mt-5'>
@@ -89,14 +169,14 @@
         </section> <br>
         <section class='Galeria  mt-3 mb-3'>
           <section class='d-flex text-center'>
-            <img src="img/Publicidad.1.png" alt="">
-            <img src="img/Publicidad.2.png" alt="">
-            <img src="img/Publicidad.3.png" alt="">
+            <img src="/img/Publicidad.1.png" alt="">
+            <img src="/img/Publicidad.2.png" alt="">
+            <img src="/img/Publicidad.3.png" alt="">
           </section>
           <section class='d-flex text-center'>
-            <img src="img/Publicidad.4.png" alt="">
-            <img src="img/Publicidad.5.png" alt="">
-            <img src="img/Publicidad.6.png" alt="">
+            <img src="/img/Publicidad.4.png" alt="">
+            <img src="/img/Publicidad.5.png" alt="">
+            <img src="/img/Publicidad.6.png" alt="">
           </section>
         </section>
       </div>
@@ -141,6 +221,7 @@
         </section>
       </div>
       <span></span>
+      <!--
       <div class='subscribe mb-5'>
         <section class='img_svg2'>
           <img src="img/svg_2.png">
@@ -156,6 +237,7 @@
           </section>
         </div>
       </div>
+    -->
       <br> <br> <br>
       <div class='footer d-flex mb-5'>
         <section class="text-start">
