@@ -25,7 +25,7 @@
             <h5 class="modal-title title_modal_contact" id="exampleModalLabel">Contact Us</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
+          <div class="Tabs_modal modal-body">
             <ul class="nav nav_modal_tabs nav-pills mb-3" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
@@ -52,10 +52,10 @@
                     <button type="button">Submit</button>
                   </section>
                 </form>
-                <img class='img-fluid' src="img/Recursos_Humanos.png" alt="">
+                <img class='' src="img/Recursos_Humanos.png" alt="">
               </div>
               <div class="tab-pane  fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <div class='d-flex Collaborations collaborations_modal'>
+                <div class='d-flex Collaborations collaborations_modal' id='div_collaborations'>
                   <section class='img_colab text-center'>
                     <img src="img/web_prueba.png" alt="">
                   </section>
@@ -92,7 +92,7 @@
     </div>
 
     <!-- VENTANA MODAL -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pl-7  pr-7">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pl-7  pr-7">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -143,91 +143,48 @@
       <img class='img-fluid' src="img/svg_1.png" alt="">
     </div>
     <div class='secundario'>
+
       <div class='Portafolio d-flex mt-5'>
         <!--
 
        -->
         <section class='txt_portafolio'>
           <h1>What we do</h1>
-          <!--
-          <section class='slider_text balls' id='red'>
-            <p>Web development <br>
-            <p> <strong>Mobile development </strong><br>
-            <p>UX/UI design</p>
-            <p>Software development</p>
-            <p>Responsive web design</p>
-          </section>
-         -->
-            <!--
-            <div class="container">
-              <div class="vertical carousel slide" id="carousel-example-generic" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <section>
-                      Web development
-                    </section>
-                  </div>
-                  <div class="item">
-                    <section>
-                      Mobile development
-                    </section>
-                  </div>
-                  <div class="item">
-                    <section>
-                      UX/UI design
-                    </section>
-                  </div>
-                  <div class="item">
-                    <section>
-                      Software development
-                    </section>
-                  </div>
-                  <div class="item">
-                    <section>
-                      Responsive web design
-                    </section>
-                  </div>
-                </div>
-                <a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
-                <a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="ruleta_carrusel carousel-inner">
+              <div class="carousel-item active">
+                Web development
               </div>
+              <div class="carousel-item">
+                Mobile development
+              </div>
+              <div class="carousel-item">
+                UX/UI design
+              </div>
+              <div class="carousel-item">
+                Software development
+              </div>
+              <div class="carousel-item">
+                Responsive web design
+              </div>
+
             </div>
-
-
-           -->
-           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-   <div class="ruleta_carrusel carousel-inner">
-     <div class="carousel-item active">
-       Web development
-     </div>
-     <div class="carousel-item">
-       Mobile development
-     </div>
-     <div class="carousel-item">
-         UX/UI design
-     </div>
-     <div class="carousel-item">
-      Software development
-     </div>
-     <div class="carousel-item">
-         Responsive web design
-     </div>
-
-   </div>
-   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-     <span class="visually-hidden">Previous</span>
-   </button>
-   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-     <span class="visually-hidden">Next</span>
-   </button>
- </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
         <section class='dispositivos text-end'>
-          <img src="/img/dispositivos.png" alt="">
+          <img src="/img/dispositivos.1.png" alt="">
         </section>
       </div> <br>
+
+
       <div class='Publicidad_Img mt-5'>
         <section class='text-center'>
           <h1>
@@ -236,60 +193,162 @@
           <p>
             Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
           </p>
+          <!--
+          <section class='Galeria  mt-3 mb-3'>
+            <section class='d-flex text-center'>
+              <img src="/img/Publicidad.1.png" alt="">
+              <img src="/img/Publicidad.2.png" alt="">
+              <img src="/img/Publicidad.3.png" alt="">
+            </section>
+            <section class='d-flex text-center'>
+              <img src="/img/Publicidad.4.png" alt="">
+              <img src="/img/Publicidad.5.png" alt="">
+              <img src="/img/Publicidad.6.png" alt="">
+            </section>
+          </section>
+
+
+         -->
+
+          <div class='Portafolio_Servicios'>
+            <div class="accordion d-flex" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Car Workshop
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <img class='img-fluid mb-2' src="img/pagina_1.png" alt=""> <br>
+                    <strong>This is the first item's accordion body.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Mall
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <img class='img-fluid mb-2' src="img/pagina_2.png" alt=""> <br>
+                    <strong>This is the second item's accordion body.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Barber Shop
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <img class='img-fluid mb-2' src="img/pagina_3.png" alt=""> <br>
+                    <strong>This is the third item's accordion body.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_1" aria-expanded="false" aria-controls="collapseThree">
+                    kit Web
+                  </button>
+                </h2>
+                <div id="collapseThree_1" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <img class='img-fluid mb-2' src="img/pagina_4.png" alt=""> <br>
+                    <strong>This is the third item's accordion body.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2" aria-expanded="false" aria-controls="collapseThree">
+                  Desktop Database Software
+                  </button>
+                </h2>
+                <div id="collapseThree_2" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <img class='img-fluid mb-2' src="img/pagina_5.png" alt=""> <br>
+                    <strong>This is the third item's accordion body.</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+
         </section> <br>
-        <section class='Galeria  mt-3 mb-3'>
-          <section class='d-flex text-center'>
-            <img src="/img/Publicidad.1.png" alt="">
-            <img src="/img/Publicidad.2.png" alt="">
-            <img src="/img/Publicidad.3.png" alt="">
-          </section>
-          <section class='d-flex text-center'>
-            <img src="/img/Publicidad.4.png" alt="">
-            <img src="/img/Publicidad.5.png" alt="">
-            <img src="/img/Publicidad.6.png" alt="">
-          </section>
-        </section>
-      </div>
-      <div class='Formulario text-center'>
-        <form action="" class='mt-4'>
-          <br>
-          <h1 class='text-start'>Contact Us</h1>
-          <p></p>
-          <h3 class='text-start'>What are you looking to create with us?</h3>
-          <br>
-          <section>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"><br>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email"><br>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"><br>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
-          </section>
-          <section class='form_submit text-end mt-4'>
-            <button type="button">Submit</button>
-          </section>
-        </form>
-        <img src="img/Recursos_Humanos.png" alt="">
+
       </div>
       <br>
-      <div class='Collaborations d-flex mt-5 mb-5'>
-        <section class='img_colab'>
-          <img src="img/web_prueba.png" alt="">
-        </section>
-        <section class='envio_datos'> <br>
-          <h1>For Collaborations</h1>
-          <p class='txt_datos mt-2'>
-            Do you want to acquire the experience you are looking for <br> with real projects?
-          </p> <br>
-          <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
-          <br>
-          <p class='btn_enviar mt-3 d-flex justify-content-end'>
-            <label for="file-upload" class="subir mt-2">
-              <i class="fas fa-paperclip"></i>&nbsp;&nbsp;&nbsp;Attatch a file
-            </label>&nbsp;&nbsp;&nbsp;&nbsp;
-            <input id="file-upload" type="file" style='display: none;' />
-            <input class='btn_send' type="submit" value="Upload">
-          </p>
-        </section>
+      <div class='Marco_Tabs_Principal'>
+        <ul class="Tabs_Principal nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-principal-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-principal-contacts" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Contact Us</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-principal-collaborations-tab" data-bs-toggle="pill" data-bs-target="#pills-principal-collaborations" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Collaborations</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-principal-contacts" role="tabpanel" aria-labelledby="pills-principal-contacts-tab">
+
+            <div class='Formulario text-center'>
+              <form action="" class='mt-4'>
+                <br>
+                <h1 class='text-start'>Contact Us</h1>
+                <p></p>
+                <h3 class='text-start'>What are you looking to create with us?</h3>
+                <br>
+                <section>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"><br>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email"><br>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"><br>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                </section>
+                <section class='form_submit text-end mt-4'>
+                  <button type="button">Submit</button>
+                </section>
+              </form>
+              <img src="img/Recursos_Humanos.png" alt="">
+            </div>
+
+          </div>
+          <div class="tab-pane fade" id="pills-principal-collaborations" role="tabpanel" aria-labelledby="pills-principal-collaborations-tab">
+            <div class='Collaborations d-flex mt-5 mb-5'>
+              <section class='img_colab'>
+                <img src="img/web_prueba.png" alt="">
+              </section>
+              <section class='envio_datos'> <br>
+                <h1>For Collaborations</h1>
+                <p class='txt_datos mt-2'>
+                  Do you want to acquire the experience you are looking for <br> with real projects?
+                </p> <br>
+                <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                <br>
+                <p class='btn_enviar mt-3 d-flex justify-content-end'>
+                  <label for="file-upload" class="subir mt-2">
+                    <i class="fas fa-paperclip"></i>&nbsp;&nbsp;&nbsp;Attatch a file
+                  </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input id="file-upload" type="file" style='display: none;' />
+                  <input class='btn_send' type="submit" value="Upload">
+                </p>
+              </section>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+      <br>
+
       <span></span>
       <!--
       <div class='subscribe mb-5'>
@@ -342,6 +401,7 @@
       </div>
     </div>
   </div>
+
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/all.min.js"></script>
   <script type="text/javascript" src="js/JQuery.js"></script>

@@ -122,26 +122,23 @@ nav {
 
   .nav_modal_tabs {
     width: 50% !important;
-    #border:5px solid red;
+    #border: 5px solid red;
     margin-bottom: 10px;
     /*margin: auto !important;*/
     position: relative;
-    top:-3px !important;
+    top: -3px !important;
     left: 25% !important;
-
   }
 
-  .nav_modal_tabs li{
+  .nav_modal_tabs li {
     margin: auto !important;
-    margin-left: 100px !important:
-    #border:5px solid purple !important;
+    margin-left: 100px !important: #border:5px solid purple !important;
   }
-
 
   .nav-pills .nav-link.active,
   .show>.nav-pills .nav-link {
     color: black !important;
-    background: #3f87b3  !important;
+    background: #3f87b3 !important;
     color: #fafaf9 !important;
   }
 
@@ -150,43 +147,55 @@ nav {
     color: #3f87b3 !important;
   }
 
-  .formulario_modal form{
-      margin-top:30px !important;
-      z-index: 100 !Important;
-      right: 320px !important;
+  .Tabs_modal{
+    border:5px solid black !important;
   }
 
-  .formulario_modal img{
-    position: absolute;
-    #border:5px solid purple !important;
-    position:relative;
-    left: 80px !important;
-  }
-
-  #pills-profile{
-    #border:5px solid yellow;
-  }
-
-  .collaborations_modal{
-    #border:5px solid purple !important;
+  #pills-home{
+    #border:5px solid red !important;
     width: 100% !important;
   }
 
-  .collaborations_modal section{
-    width:50% !important;
+  #pills-home form {
+    width: 420px !important;
+    margin-top: 30px !important;
+    z-index: 100 !Important;
+    right: 45% !important;
+    #border:5px solid purple !important;
   }
 
-  .collaborations_modal .img_colab{
-    width: 30% !important;
+  #pills-home img {
+    width: 90% !important;
+    position: absolute;
+    #border: 5px solid purple !important;
+    position: relative;
+    left: 10% !important;
   }
 
-  .collaborations_modal img{
-    width: 200px !important;
-    height:450px !important;
+  #pills-profile {
+    #border: 5px solid yellow;
   }
 
+  #div_collaborations {
+    border: 5px solid blue !important;
+    width: 100% !important;
+    margin-top:55px ;
+  }
 
-  .collaborations_modal .envio_datos{
+  #div_collaborations section {
+    width: 50% !important;
+  }
+
+  #div_collaborations .img_colab {
+    #width: 30% !important;
+  }
+
+  #div_collaborations img {
+    width: 100% !important;
+    height: 450px !important;
+  }
+
+  #div_collaborations .envio_datos {
     width: 100% !important;
   }
 
@@ -196,9 +205,9 @@ nav {
     color: #3f87b3 !important;
   }
 
-  .btn_modal{
-     background-color: #3f87b3 !important;
-     color:white !important;
+  .btn_modal {
+    background-color: #3f87b3 !important;
+    color: white !important;
   }
 
   /*---------------------------------------*/
@@ -278,8 +287,10 @@ nav {
   }
 
   .Portafolio .dispositivos {
+    position: relative;
+    right: 2%;
     #border: 5px solid purple;
-    width: 59%;
+    width: 70% !important;
   }
 
   .Portafolio section h1 {
@@ -298,7 +309,7 @@ nav {
   }
 
   .Portafolio section p {
-    border: 5px solid red;
+    #border: 5px solid red;
     position: relative;
     top: 5px !important;
     left: 25%;
@@ -307,7 +318,7 @@ nav {
   }
 
   .Portafolio img {
-    # border: 5px solid red;
+    #border: 5px solid red;
     width: 100%;
     height: 100%;
   }
@@ -350,17 +361,78 @@ nav {
     border-radius: 26px;
   }
 
+
+  /* PORTAFOLIOS DE SERVICIOS */
+  .Portafolio_Servicios{
+    margin:auto;
+    #border:5px solid red !important;
+    width: 95% !important;
+
+  }
+
+  .Portafolio_Servicios h2{
+    #font-size: 1.5vw !important;
+    font-family: Poppins !important;
+
+  }
+  /* PORTAFOLIOS DE SERVICIOS*/
+
+  /*TABS FORMULARIO Y Collaborations*/
+
+  .Tabs_Principal{
+    #border:5px solid red !important;
+  }
+
+  .Tabs_Principal li{
+    margin:auto;
+    font-size: 2vw !important;
+    font-family: Poppins !important;
+    #color:black !important;
+  }
+
+  .Tabs_Principal li button{
+    color:black !important;
+  }
+
+  .Marco_Tabs_Principal{
+    #border:5px solid yellow !important;
+    margin: auto;
+    width:85% !important;
+  }
+
+  /*TABS FORMULARIO Y Collaborations*/
+
+
+
+  /*.Tabs_Form_Collaborations {
+    margin: auto;
+    width: 80% !important;
+    border: 5px solid red;
+    height: 600px !important;
+  }
+
+  .ventana_tabs {
+    position: relative;
+    top: 110px !important;
+    border: 5px solid purple !important;
+    width: 20% !important;
+    font-size: 2vw !important;*/
+  }
+
+  /*TABS FORMULARIO Y Collaborations*/
   /*----------------Publicidad------------------------*/
   /*----------------Formulario------------------------*/
   .Formulario {
-    #border: 5px solid red;
+    #border: 5px solid purple;
+    width: 100% !important;
     height: 600px;
   }
 
   .Formulario form {
     position: absolute;
+    margin-top: 30px !important;
     padding: 40px;
-    margin-left: 9%;
+    margin-left: 1%;
     background: #C3212C;
     width: 450px;
     height: 550px;
@@ -368,9 +440,14 @@ nav {
   }
 
   .Formulario img {
-    width: 88%;
-    border-radius: 16px;
+    #border: 5px solid yellow !important;
+    width: 100%;
+    #border-radius: 16px;
     height: 100%;
+  }
+
+  .Formulario form {
+    width: 26% !important;
   }
 
   .Formulario form p {
@@ -408,17 +485,19 @@ nav {
   /*----------------Formulario------------------------*/
   /*----------------Colaboracion------------------------*/
   .Collaborations {
+    position: relative;
+    top: 0px;
     margin: auto;
-    #border: 4px solid red;
-    width: 85%;
+    #border: 3px solid purple;
+    width: 100.5%;
+    height: 500px !important;
   }
 
-  .Collaborations section {
-    # border: 5px solid blue;
-    width: 50%;
-    height: 450px !important;
-  }
-
+  /*  .Collaborations section {
+    border: 5px solid blue;
+    width: 30% !important;
+    height: 100% !important;
+  }*/
   .Collaborations img {
     width: 100%;
     height: 100%;
@@ -442,6 +521,10 @@ nav {
     outline: none;
     border: none;
     color: #F8F8F8;
+  }
+
+  .Collaboration {
+    width: 100
   }
 
   .Collaborations h1 {
