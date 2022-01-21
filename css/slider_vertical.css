@@ -3,13 +3,14 @@
   position: relative;
   left: 10%;
   width: 70% !important;
-  border: 5px solid red !important;
+  #border: 5px solid red !important;
   font-size: 2.5vw !important;
   text-align: end !important;
 }
 
 .Portafolio_Servicios {
-  border: 5px solid purple !important;
+  #border: 5px solid purple !important;
+  margin-bottom: 40px !important;
   padding-bottom:35px;
   width: 95% !important;
   height: 100% !important;
