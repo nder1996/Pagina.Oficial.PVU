@@ -24,8 +24,8 @@
 
 /*--------------Navbar-------------------------*/
 nav {
-  border: 5px solid purple;
-  background-color: #fafaf9 !important;
+  #border: 5px solid purple;
+  #background-color: #fafaf9 !important;
 }
 
 @media (min-width: 1200px) {
@@ -138,6 +138,10 @@ nav {
     #border: 5px solid purple !important;
   }
 
+  #pills-home textarea {
+    height:150px !important;
+  }
+
   #pills-home img {
     width: 90% !important;
     position: absolute;
@@ -159,6 +163,10 @@ nav {
 
   #div_collaborations section {
     width: 50% !important;
+  }
+
+  #div_collaborations textarea {
+    height:80px !important;
   }
 
   #div_collaborations .img_colab {
@@ -200,11 +208,7 @@ nav {
   .Presentacion {
     position: relative;
     top: 20px;
-    border: 5px solid red;
-    #background-image: url('/img/svg_1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    #border: 5px solid red;
     #margin-top: 5%;
     width: 100%;
     height: 100% !important;
@@ -213,7 +217,7 @@ nav {
   .fondo_presentacion {
     position: relative;
     z-index: 1;
-    border: 5px solid red;
+    #border: 5px solid red;
     width: 100%;
     height: 720px !important;
   }
@@ -223,7 +227,7 @@ nav {
     padding-bottom: 5px !important;
     z-index: 100;
     position: absolute;
-    border: 4px solid red;
+    #border: 4px solid red;
     margin-left: 5%;
     margin-top: 5%;
     width: 42% !important;
@@ -235,7 +239,7 @@ nav {
     font-family: Poppins;
     font-size: 2vw;
     color: #F79C41 !important;
-    border: 6px solid yellow;
+    #border: 6px solid yellow;
   }
 
   .Presentacion .txt_2 {
@@ -247,11 +251,11 @@ nav {
     font-size: 50px;
     color: #222222;
     z-index: 1000;
-    border: 6px solid yellow;
+    #border: 6px solid yellow;
   }
 
   .Presentacion .txt_3 {
-    border: 6px solid purple;
+    #border: 6px solid purple;
     z-index: 100;
     #position: absolute;
     font-family: Poppins;
@@ -263,7 +267,7 @@ nav {
   }
 
   .txt_4 {
-    border: 6px solid yellow !important;
+    #border: 6px solid yellow !important;
     z-index: 100;
     width: 195px;
     height: 53px;
@@ -278,12 +282,12 @@ nav {
   /*----------------Portafolio------------------------*/
   .secundario {
     background-color: #f9f9f8 !important;
-    border: 5px solid blue;
+    #border: 5px solid blue;
   }
 
   .secundario .Portafolio {
     background-color: #f9f9f8 !important;
-    border: 5px solid yellow;
+    #border: 5px solid yellow;
     width: 100%;
     height: 100%;
   }
@@ -297,14 +301,14 @@ nav {
   .Portafolio .dispositivos {
     position: relative;
     right: 2%;
-    border: 5px solid black;
+    #border: 5px solid black;
     width: 58% !important;
   }
 
   .Portafolio img {
     position: relative;
     #right: 2%;
-    border: 5px solid purple;
+    #border: 5px solid purple;
     width: 100% !important;
   }
 
@@ -316,12 +320,6 @@ nav {
     font-size: 72px;
   }
 
-  .slider_text {
-    margin: auto;
-    border: 5px solid blue !important;
-    width: 80%;
-    height: 360px !important;
-  }
 
   .Portafolio section p {
     #border: 5px solid red;
@@ -332,11 +330,6 @@ nav {
     font-size: 22px;
   }
 
-  /*  .Portafolio img {
-    #border: 5px solid red;
-    width: 100%;
-    height: 100%;
-  }*/
   /*----------------Portafolio------------------------*/
   /*----------------Publicidad------------------------*/
   /* PORTAFOLIOS DE SERVICIOS */
@@ -354,7 +347,7 @@ nav {
   /* PORTAFOLIOS DE SERVICIOS*/
   /*TABS FORMULARIO Y Collaborations*/
   .Tabs_Principal {
-    border: 5px solid red !important;
+    #border: 5px solid red !important;
   }
 
   .Tabs_Principal li {
@@ -377,7 +370,7 @@ nav {
   /*----------------Publicidad------------------------*/
   /*----------------Formulario------------------------*/
   .Formulario {
-    border: 5px solid purple;
+    #border: 5px solid purple;
     width: 100% !important;
     height: 700px;
   }
@@ -404,10 +397,14 @@ nav {
     width: 26% !important;
   }
 
+  .Formulario textarea{
+    height: 140px !important;
+  }
+
   .Formulario form p {
     position: relative;
     border: 1px solid #F79C41;
-    width: 395px;
+    width: 100%;
     height: 0px;
   }
 
@@ -447,11 +444,10 @@ nav {
     height: 500px !important;
   }
 
-  /*  .Collaborations section {
-    border: 5px solid blue;
-    width: 30% !important;
-    height: 100% !important;
-  }*/
+  .Collaborations textarea{
+    height: 150px !important;
+  }
+
   .Collaborations img {
     width: 100%;
     height: 100%;
@@ -504,7 +500,7 @@ nav {
     position: relative;
     left: 10%;
     width: 75% !important;
-    border: 5px solid red !important;
+    #border: 5px solid red !important;
     font-size: 2.5vw !important;
     text-align: end !important;
   }
