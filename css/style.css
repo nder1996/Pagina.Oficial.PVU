@@ -3,6 +3,7 @@
 .Principal {
   overflow: hidden;
   background-color: #f9f9f8 !important;
+  height: 100% !important;
 }
 
 @media (min-width: 757px) and (max-width:1199px) {
