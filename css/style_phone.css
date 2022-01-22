@@ -142,7 +142,7 @@
     #border: 5px solid blue !important;
     width: 100% !important;
     margin-top: 10px;
-    height: 400px !important;
+    height: 420px !important;
   }
 
   #div_collaborations textarea{
@@ -163,7 +163,7 @@
   #div_collaborations #envio_datos_modal {
     #border: 5px solid yellow !important;
     width: 100% !important;
-    height: 400px !important;
+    height: 420px !important;
   }
 
   #div_collaborations #envio_datos_modal h1 {
