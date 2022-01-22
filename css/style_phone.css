@@ -1,112 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-.Principal {
-  overflow: hidden;
-  background-color: #f9f9f8 !important;
-}
-
-@media (max-width: 1199px) {
-  body {
-    text-align: center;
+@media (max-width: 768px) {
+  .mantenimiento {
+    display: none;
   }
 
   .Principal {
-    display: none;
+    display: block;
   }
 
-  .mantenimiento {
-    position: relative;
-    top: 250px;
-    width: 100%;
-    position: relative;
-  }
-}
-
-/*--------------Navbar-------------------------*/
-nav {
-  border: 5px solid purple;
-  background-color: #fafaf9 !important;
-}
-
-@media (min-width: 1200px) {
-  .mantenimiento {
-    display: none;
-  }
-
-  nav li {
-    position: relative;
-    text-align: center;
-    width: 145px !important;
-    height: 50px !important;
-    right: 50px;
-    margin-left: 1%;
-    #border: 6px solid red;
-    #padding-left: 100px;
-    cursor: pointer;
-    font-size: 1.2vw !important;
-    overflow: hidden;
-  }
-
-  nav li a {
-    color: #3f87b3 !important;
-    font-family: Poppins;
-  }
-
-  .punto_home {
-    #border: 5px solid red;
-  }
+  /*--------------NAV---------*/
 
   .navbar-brand img {
     position: absolute;
     width: 42px;
     height: 47px;
-    left: 35px;
-    top: 12px;
+    #left: 2px;
+    top: 5px;
   }
 
   .navbar-brand span {
-    margin-left: 20px;
+    margin-left: 50px;
     position: relative;
-    top: 3px !important;
+    #top: 0px !important;
     #border: 5px solid red;
-    font-size: 1.6vw !important;
-  }
-
-  nav button {
-    font-family: Poppins;
-    background-color: #3f87b3 !important;
-    color: white !Important;
-    border-radius: 5px;
-    width: 131.77px;
-    height: 41.34px;
-    outline: none !important;
-    border: none !important;
-    font-size: 1vw !important;
-  }
-
-  .navbar-brand span {
-    margin-left: 70px;
+    font-size: 5vw !important;
     color: #3f87b3 !important;
     font-family: Poppins;
   }
 
-  nav .Contact a {
-    font-family: Inter, sans-serif !important;
+  .navbar-toggler{
+    background-color: #3f87b3 !important;
+    color:white !important;
+  }
+
+  nav li {
+    position: relative;
+    text-align:right;
+    padding-right: 10px !important;
+    #border: 6px solid red;
+    #padding-left: 100px;
+    font-family: Poppins;
+    cursor: pointer;
+    color: #3f87b3 !important;
+  }
+
+  nav li a{
+    color: #3f87b3 !important;
+  }
+
+  nav .Contact button {
+    #width:50px !important;
+   #border: 5px solid red;
+   background-color: rgb(51, 128, 175);
+   border-radius: 6px;
+   font-family: Poppins !important;
+   color:white !important;
+ }
+
+  nav {
+    border:transparent !important;
+    background: #fafaf9 !important;
+  }
+
+/*--------------NAV---------*/
+
+
+/*--------------MODAL TABS---------*/
+
+  .modal_principal{
+    height: 100% !important;
+    #border:5px solid purple;
+  }
+
+  .title_modal_contact {
+    font-size: 7vw !important;
+    font-family: Poppins;
+    color: #3f87b3 !important;
+  }
+
+  .modal_contenido{
+    #border:5px solid yellow;
   }
 
   .nav_modal_tabs {
-    width: 50% !important;
-    #border: 5px solid red;
+    width: 80% !important;
+    #border: 5px solid yellow;
     margin-bottom: 10px;
-    /*margin: auto !important;*/
     position: relative;
     top: -3px !important;
-    left: 25% !important;
+    left: 10% !important;
   }
 
   .nav_modal_tabs li {
     margin: auto !important;
-    margin-left: 100px !important: #border:5px solid purple !important;
+  }
+
+  .nav_modal_tabs button {
+    font-size: 8vw !important;
+    color: #3f87b3 !important;
   }
 
   .nav-pills .nav-link.active,
@@ -116,56 +106,56 @@ nav {
     color: #fafaf9 !important;
   }
 
-  .nav_modal_tabs button {
-    font-size: 2vw !important;
-    color: #3f87b3 !important;
-  }
-
   .Tabs_modal {
     #border: 5px solid blue !important;
+    #height: 100% !important;
   }
 
   #pills-home {
-    #border: 5px solid red !important;
-    width: 100% !important;
+    position:relative;
+    right: 4% !important;
+    border: transparent;
+    width: 110% !important;
+    height: 100%;
   }
 
   #pills-home form {
-    width: 420px !important;
-    margin-top: 30px !important;
-    z-index: 100 !Important;
-    right: 45% !important;
-    #border: 5px solid purple !important;
+    position:relative;
+    border-radius:0 ;
+    top:-10px;
+    padding:25px !important;
+    width: 94% !important;
+    height:550px !important;
+    left: 1.5% !important;
+  }
+
+  #pills-home form textarea{
+    #border:4px solid red !important;
+    height: 130px !important;
   }
 
   #pills-home img {
-    width: 90% !important;
-    position: absolute;
-    #border: 5px solid purple !important;
-    position: relative;
-    left: 10% !important;
-  }
-
-  #pills-profile {
-    #border: 5px solid yellow;
+    display:none;
   }
 
   #div_collaborations {
     #border: 5px solid blue !important;
     width: 100% !important;
     margin-top: 10px;
-    height: 300px !important;
+    height: 400px !important;
   }
 
-  #div_collaborations section {
-    width: 50% !important;
+  #div_collaborations textarea{
+    height: 130px !important;
   }
 
   #div_collaborations .img_colab {
     width: 30% !important;
+    display:none;
   }
 
   #div_collaborations img {
+    display:none;
     width: 210px !important;
     height: 300px !important;
   }
@@ -173,21 +163,18 @@ nav {
   #div_collaborations #envio_datos_modal {
     #border: 5px solid yellow !important;
     width: 100% !important;
-    height: 300px !important;
+    height: 400px !important;
   }
 
   #div_collaborations #envio_datos_modal h1 {
-    font-size: 1.5vw !important;
+    font-size: 7vw !important;
   }
 
   #div_collaborations #envio_datos_modal p {
-    font-size: 0.8vw !important;
-  }
-
-  .title_modal_contact {
-    font-size: 3vw !important;
-    font-family: Poppins;
-    color: #3f87b3 !important;
+    width: 100%;
+    #border:5px solid red;
+    text-align: start;
+    font-size: 4vw !important;
   }
 
   .btn_modal {
@@ -195,62 +182,65 @@ nav {
     color: white !important;
   }
 
-  /*---------------------------------------*/
+
+/*--------------MODAL TABS---------*/
+
+
   /*----------------Portada------------------------*/
   .Presentacion {
     position: relative;
     top: 20px;
-    border: 5px solid red;
+    #border: 5px solid red;
     #background-image: url('/img/svg_1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    #margin-top: 5%;
     width: 100%;
     height: 100% !important;
   }
 
   .fondo_presentacion {
     position: relative;
-    z-index: 1;
-    border: 5px solid red;
-    width: 100%;
-    height: 720px !important;
+    #border: 5px solid red;
+    width: 100% !important;
+    height: 410px !important;
   }
 
   .Presentacion .txt_portada {
     #display: none;
+    text-align: start;
     padding-bottom: 5px !important;
     z-index: 100;
     position: absolute;
-    border: 4px solid red;
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 42% !important;
+    #border: 4px solid red;
+    margin-left: 4%;
+    top:14%;
+    width: 60% !important;
     #height: 100% !important;
   }
 
   .Presentacion .txt_1 {
-    z-index: 100;
     font-family: Poppins;
-    font-size: 2vw;
+    font-size: 5vw;
     color: #F79C41 !important;
-    border: 6px solid yellow;
+    #border: 6px solid yellow;
   }
 
   .Presentacion .txt_2 {
     z-index: 100;
-    #position: relative;
+    position: relative;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 7vw;
     color: #222222;
     z-index: 1000;
-    border: 6px solid yellow;
+    left:4%;
+    #border: 6px solid yellow;
   }
 
   .Presentacion .txt_3 {
+    display:none;
     border: 6px solid purple;
     z-index: 100;
     #position: absolute;
@@ -263,27 +253,29 @@ nav {
   }
 
   .txt_4 {
-    border: 6px solid yellow !important;
+    #border: 6px solid yellow !important;
+    font-size: 4vw !important;
     z-index: 100;
-    width: 195px;
-    height: 53px;
+    width: 155px;
+    height: 47px;
     left: 135px;
     background: #3380AF !important;
     border-radius: 6px;
     outline: none;
     border: none;
   }
-
+/*
   /*----------------Portada------------------------*/
   /*----------------Portafolio------------------------*/
   .secundario {
     background-color: #f9f9f8 !important;
-    border: 5px solid blue;
+    #border: 5px solid blue;
   }
 
   .secundario .Portafolio {
     background-color: #f9f9f8 !important;
-    border: 5px solid yellow;
+    #border: 5px solid yellow;
+    flex-wrap: wrap !important;
     width: 100%;
     height: 100%;
   }
@@ -291,75 +283,109 @@ nav {
   .Portafolio .txt_portafolio {
     overflow: hidden !important;
     #border: 5px solid green;
-    width: 50%;
+    width: 100%;
   }
 
   .Portafolio .dispositivos {
     position: relative;
-    right: 2%;
-    border: 5px solid black;
-    width: 58% !important;
+    text-align:center !important;
+    left: 5%;
+    #border: 5px solid black !important;
+    width: 90% !important;
   }
 
   .Portafolio img {
     position: relative;
     #right: 2%;
-    border: 5px solid purple;
+    #border: 5px solid purple;
     width: 100% !important;
   }
 
   .Portafolio section h1 {
+    width: 100%;
+    text-align:center;
+    #border:5px solid blue;
     position: relative;
     margin-top: 25px;
-    left: 100px;
     font-family: Poppins;
-    font-size: 72px;
+    font-size: 8vw;
   }
 
-  .slider_text {
-    margin: auto;
-    border: 5px solid blue !important;
-    width: 80%;
-    height: 360px !important;
-  }
-
-  .Portafolio section p {
-    #border: 5px solid red;
+  .ruleta_carrusel {
+    margin-top: 10% !important;
     position: relative;
-    top: 5px !important;
-    left: 25%;
-    width: 60% !important;
-    font-size: 22px;
+    #left: 13%;
+    top:-35px !important;
+    width: 100% !important;
+    #border: 5px solid red !important;
+    font-size: 5.8vw !important;
+    text-align: center !important;
   }
 
-  /*  .Portafolio img {
-    #border: 5px solid red;
-    width: 100%;
-    height: 100%;
-  }*/
   /*----------------Portafolio------------------------*/
+
   /*----------------Publicidad------------------------*/
   /* PORTAFOLIOS DE SERVICIOS */
-  .Portafolio_Servicios {
-    margin: auto;
-    #border: 5px solid red !important;
-    width: 95% !important;
-  }
 
   .Portafolio_Servicios h2 {
     #font-size: 1.5vw !important;
     font-family: Poppins !important;
   }
 
+  .Portafolio_Servicios {
+    #border: 5px solid purple !important;
+    margin-bottom: 40px !important;
+    padding-bottom: 35px;
+    width: 95% !important;
+    height: 100% !important;
+    padding: 5px !important;
+  }
+
+  .Publicidad_Img h1{
+    #border:4px solid purple;
+    font-size: 7vw !important;
+  }
+
+  .Publicidad_Img p{
+    #border:5px solid red;
+    margin-top:8% !important;
+    font-size: 5vw !important;
+  }
+
+  .accordion{
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .accordion-item {
+    #font-size:8vw !important;
+    border-left: 5px solid red !important;
+    margin: auto;
+    width: 400px !important;
+    margin-top: 5% !important;
+    margin-bottom: 2.5% !important;
+    margin-left: 7% !important;
+    border: none;
+
+  }
+
+  .accordion-button {
+    font-size:5vw !important;
+    background-color: #fafaf9 !important;
+    border: none;
+  }
+
+
   /* PORTAFOLIOS DE SERVICIOS*/
   /*TABS FORMULARIO Y Collaborations*/
   .Tabs_Principal {
-    border: 5px solid red !important;
+    #border: 5px solid blue !important;
   }
 
   .Tabs_Principal li {
     margin: auto;
-    font-size: 2vw !important;
+    font-size: 5vw !important;
     font-family: Poppins !important;
     #color: black !important;
   }
@@ -377,9 +403,9 @@ nav {
   /*----------------Publicidad------------------------*/
   /*----------------Formulario------------------------*/
   .Formulario {
-    border: 5px solid purple;
+    #border: 5px solid purple;
     width: 100% !important;
-    height: 700px;
+    height: 100%;
   }
 
   .Formulario form {
@@ -394,20 +420,24 @@ nav {
   }
 
   .Formulario img {
+    display:none;/*
     #border: 5px solid yellow !important;
     width: 100%;
     #border-radius: 16px;
-    height: 100%;
+    height: 100%;*/
   }
 
   .Formulario form {
-    width: 26% !important;
+    position:relative;
+    right:3%;
+    width: 105% !important;
+    height: 570px;
   }
 
   .Formulario form p {
     position: relative;
     border: 1px solid #F79C41;
-    width: 395px;
+    width: 100%;
     height: 0px;
   }
 
@@ -426,7 +456,14 @@ nav {
     color: #F8F8F8;
   }
 
+  .Formulario form textarea{
+    position:relative;
+    #border:5px solid purple;
+    height: 110px !important;
+  }
+
   .Formulario button {
+    font-size: 4vw !important;
     color: white;
     width: 131.77px;
     height: 41.34px;
@@ -444,20 +481,17 @@ nav {
     margin: auto;
     #border: 3px solid purple;
     width: 100.5%;
-    height: 500px !important;
+    height: 550px !important;
   }
 
-  /*  .Collaborations section {
-    border: 5px solid blue;
-    width: 30% !important;
-    height: 100% !important;
-  }*/
   .Collaborations img {
+    display:none;
     width: 100%;
     height: 100%;
   }
 
   .img_colab {
+    display:none;
     width: 40% !important;
   }
 
@@ -468,6 +502,7 @@ nav {
   }
 
   .btn_send {
+    font-size:4vw !important;
     width: 131.77px;
     height: 41.34px;
     background: #3380AF;
@@ -484,66 +519,62 @@ nav {
   .Collaborations h1 {
     font-family: Poppins;
     font-style: normal;
-    font-size: 44px;
+    font-size: 7.3vw;
     color: #333333;
   }
 
   .Collaborations .txt_datos {
+    margin-top: 12% !important;
+    #border:4px solid red;
+    text-align: start;
     font-family: Inter, sans-serif;
-    font-size: 22px;
+    font-size:4.5vw;
     line-height: 187.5%;
     color: #525252 !important;
     font-style: normal;
     font-weight: normal;
   }
 
+  .envio_datos textarea{
+    position:relative;
+    right:5%;
+    width: 110% !important;
+    #border:4px solid red !important;
+    height: 130px !important;
+  }
+
+  .btn_enviar{
+    position:relative;
+    right:21%;
+    width: 120% !important;
+    #border:5px solid purple !important;
+    font-size: 4.4vw !important;
+  }
+
+
+
   /*----------------Colaboracion------------------------*/
   /*----------accordion-------------*/
-  .ruleta_carrusel {
-    margin-top: 15% !important;
-    position: relative;
-    left: 10%;
-    width: 75% !important;
-    border: 5px solid red !important;
-    font-size: 2.5vw !important;
-    text-align: end !important;
-  }
 
-  .Portafolio_Servicios {
-    #border: 5px solid purple !important;
-    margin-bottom: 40px !important;
-    padding-bottom: 35px;
-    width: 95% !important;
-    height: 100% !important;
-    padding: 5px !important;
-  }
-
-  .accordion-item {
-    #border: 5px solid red;
-    margin: auto;
-    width: 400px !important;
-    margin-top: 2.5% !important;
-    #margin-bottom: 2.5% !important;
-    margin-left: 1% !important;
-    border: none;
-  }
-
-  .accordion-button {
-    background-color: #fafaf9 !important;
-    border: none;
-  }
 
   /*----------accordion-------------*/
 
   /*----------------Footer------------------------*/
   .footer {
+    position:relative;
+    flex-direction:column !important;
+    top:-70px !important;
+    #border:5px solid red;
     margin: auto;
+    height: 100% !important;
     width: 85%;
     border-bottom: 1px solid black;
   }
 
   .footer section {
-    width: 49%;
+    #flex-direction: column !important;
+    #border:5px solid yellow;
+    width: 100%;
   }
 
   .punto_home {
@@ -551,36 +582,54 @@ nav {
   }
 
   .footer ul li {
-    display: inline;
+    position:relative;
+    right:5% !important;
+    #border:5px solid red;
+    #display: inline;
     list-style: none;
-    margin-left: 15px;
+    margin-top: 8% !important;
     color: #3f87b3 !important;
+    font-size:5vw !important;
     font-family: Poppins;
   }
 
-  .icons_footer {
-    right: 10px;
-    #border: 5px solid yellow;
-    font-size: 1.5vw !important;
+  .icons_footer{
+    margin-top: 7vw !important;
+    padding-bottom: 15px !important;
   }
 
-  .icons_footer i {
+  .icons_footer svg {
+    width:15% !important;
+    #border:5px solid red !important;
+    font-size: 8vw !important;
     position: relative;
     margin-left: 15px;
+    margin-top:7%;
   }
 
   /*----------------Footer------------------------*/
   /*----------------End_page------------------------*/
   .end_page {
+    position:relative;
+    top:-100px !important;
+    flex-direction: column;
     font-size: 14px;
     margin: auto;
-    width: 80%;
+    width: 100%;
     #border: 5px solid red !important;
   }
 
+  .end_page section{
+    margin: auto;
+    font-size:5vw !important;
+    #border:5px solid purple;
+    width:90% !important;
+    margin-top: 8% !important;
+  }
+
   .end_page img {
-    width: 56px;
-    height: 56px;
+    width: 75px;
+    height: 75px;
   }
 
   /*----------------End_page------------------------*/

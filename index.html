@@ -11,16 +11,16 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/slider_vertical.css">
+  <link rel="stylesheet" href="css/style_phone.css">
 </head>
 
 <body>
   <img class="mantenimiento" src="img/Mantenimiento.png" alt="">
   <div class='Principal mb-5'>
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade modal_principal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
-        <div class="modal-content">
+        <div class="modal-content modal_contenido">
           <div class="modal-header">
             <h5 class="modal-title title_modal_contact" id="exampleModalLabel">Contact Us</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -118,7 +118,7 @@
               <a class="nav-link" href="#">Briefcase</a>
             </li>
             <li class="Contact nav-item">
-              <button type="button" name="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <button type="button" name="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Contact us
               </button>
             </li>
@@ -126,32 +126,26 @@
         </div>
       </div>
     </nav>
-    <div class='Presentacion'>
-      <div>
-        <section class='txt_portada'>
-          <h3 class='txt_1'>Digital Products</h3> <br>
-          <h3 class='txt_2'>Who we are?</h3> <br>
-          <h3 class='txt_3'>
-            Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard.
-          </h3> <br> <br> <br> <br> <br>
-          <button class='txt_4  text-white'>
-            Get more details
-          </button>
-        </section>
-      </div>
-      <img class='caricatura' src="img/caricatura.png" alt="">
-      <img class='img-fluid' src="img/svg_1.png" alt="">
+    <div class='Presentacion d-flex mb-5 mt-5'>
+      <section class='txt_portada'>
+        <h3 class='txt_1'>Digital Products</h3> <br>
+        <h3 class='txt_2'>Who we are?</h3> <br>
+        <h3 class='txt_3'>
+          Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard.
+        </h3>
+        <button class='txt_4  text-white'>
+          Get more details
+        </button>
+      </section>
+      <img class='fondo_presentacion' src="img/svg_1.png" alt="">
     </div>
     <div class='secundario'>
 
       <div class='Portafolio d-flex mt-5'>
-        <!--
-
-       -->
         <section class='txt_portafolio'>
-          <h1>What we do</h1>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="ruleta_carrusel carousel-inner">
+          <h1>What we do</h1> <br>
+          <div id="carouselExampleControls" class="carousel slide_presentacion" data-bs-ride="carousel">
+            <div class="ruleta_carrusel carousel-inner text-end">
               <div class="carousel-item active">
                 Web development
               </div>
@@ -191,7 +185,7 @@
             Our Portfolio
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
           <!--
           <section class='Galeria  mt-3 mb-3'>
@@ -233,7 +227,7 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      <img class='img-fluid mb-2' src="img/pagina_2.png" alt=""> <br>
+                    <img class='img-fluid mb-2' src="img/pagina_2.png" alt=""> <br>
                     <strong>This is the second item's accordion body.</strong>
                   </div>
                 </div>
@@ -246,7 +240,7 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      <img class='img-fluid mb-2' src="img/pagina_3.png" alt=""> <br>
+                    <img class='img-fluid mb-2' src="img/pagina_3.png" alt=""> <br>
                     <strong>This is the third item's accordion body.</strong>
                   </div>
                 </div>
@@ -259,7 +253,7 @@
                 </h2>
                 <div id="collapseThree_1" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      <img class='img-fluid mb-2' src="img/pagina_4.png" alt=""> <br>
+                    <img class='img-fluid mb-2' src="img/pagina_4.png" alt=""> <br>
                     <strong>This is the third item's accordion body.</strong>
                   </div>
                 </div>
@@ -267,12 +261,12 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2" aria-expanded="false" aria-controls="collapseThree">
-                  Desktop Database Software
+                    Desktop Database Software
                   </button>
                 </h2>
                 <div id="collapseThree_2" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                      <img class='img-fluid mb-2' src="img/pagina_5.png" alt=""> <br>
+                    <img class='img-fluid mb-2' src="img/pagina_5.png" alt=""> <br>
                     <strong>This is the third item's accordion body.</strong>
                   </div>
                 </div>
@@ -371,10 +365,9 @@
       <div class='footer d-flex mb-5'>
         <section class="text-start">
           <ul>
-            <span class='punto_home'>
-              <i class="fas fa-circle"></i>
-            </span>
-            <li>Home</li>
+            <li> <span class='punto_home'>
+                <i class="fas fa-circle"></i>
+              </span>Home</li>
             <li>About us</li>
             <li>Services</li>
             <li>News</li>
