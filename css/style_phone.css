@@ -594,6 +594,9 @@
   }
 
   .icons_footer{
+    width: 100% !important;
+    text-align: center !important;
+    #border:5px solid yellow;
     margin-top: 7vw !important;
     padding-bottom: 15px !important;
   }
@@ -603,7 +606,7 @@
     #border:5px solid red !important;
     font-size: 8vw !important;
     position: relative;
-    margin-left: 15px;
+    margin-left: 1%;
     margin-top:7%;
   }
 
