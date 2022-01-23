@@ -109,6 +109,17 @@
     height: 100%;
   }
 
+  #formulario_modal input{
+    position:relative;
+    #border:5px solid red ;
+    margin-top:0px !important;
+    top:-0px !important;
+  }
+
+    #formulario_modal textarea{
+      margin-top:0px !important;
+    }
+
   #formulario_modal form {
     position:relative;
     border-radius:0 ;
@@ -129,10 +140,11 @@
   }
 
   #modal_collaborations {
+    position: relative;
     display:flex;
     #border: 5px solid blue !important;
     width: 100% !important;
-    margin-top: 10px;
+    margin-top: 50px;
     height: 440px !important;
   }
 
