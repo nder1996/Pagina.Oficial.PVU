@@ -469,6 +469,7 @@
   }
 
   .envio_datos {
+    #border:5px solid red;
     #padding: 35px;
     background-color: #F79C41;
     width: 100% !important;
@@ -500,11 +501,12 @@
   .btn_enviar{
     position:relative;
     display:flex;
+    justify-content:center !important;
     #border:5px solid red;
     margin-top: 11%;
     #margin:auto;
-    left:10%;
-    width: 98% !important;
+    #left:10%;
+    width: 100% !important;
     font-size: 4.4vw !important;
   }
 
