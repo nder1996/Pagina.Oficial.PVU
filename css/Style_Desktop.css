@@ -6,7 +6,7 @@
   height: 100% !important;
 }
 
-@media (min-width: 757px) and (max-width:1199px) {
+/*@media (min-width: 757px) and (max-width:1199px) {
   body {
     text-align: center;
   }
@@ -22,7 +22,7 @@
     position: relative;
   }
 }
-
+*/
 /*--------------Navbar-------------------------*/
 nav {
   #border: 5px solid purple;

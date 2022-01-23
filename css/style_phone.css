@@ -1,44 +1,50 @@
-@media (max-width: 756px) {
+
+@media (max-width: 576px) {
   .mantenimiento {
     display: none;
   }
 
-  .Principal {
-    display: block;
+  .Principal{
+    border:5px solid red;
+    height:100% !important;
   }
 
-  /*--------------NAV---------*/
 
+  /*--------------NAV---------*/
   .navbar-brand img {
     position: absolute;
-    width: 42px;
-    height: 47px;
-    #left: 2px;
-    top: 5px;
+    width: 33px;
+    height: 33px;
+    left: 4%;
+    top: 10px;
   }
 
   .navbar-brand span {
-    margin-left: 50px;
+    margin-left: 40px;
     position: relative;
-    #top: 0px !important;
+    top: -3px !important;
     #border: 5px solid red;
-    font-size: 5vw !important;
+    font-size: 4.5vw !important;
     color: #3f87b3 !important;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
   }
 
   .navbar-toggler{
-    background-color: #3f87b3 !important;
-    color:white !important;
+    background-color: white !important;
+    border:none !important;
+  }
+
+  .navbar-toggler-icon{
+    background-color: white !important;
   }
 
   nav li {
     position: relative;
+    font-size: 4.5vw !important;
     text-align:right;
     padding-right: 10px !important;
     #border: 6px solid red;
-    #padding-left: 100px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     color: #3f87b3 !important;
   }
@@ -48,11 +54,9 @@
   }
 
   nav .Contact button {
-    #width:50px !important;
    #border: 5px solid red;
    background-color: rgb(51, 128, 175);
    border-radius: 6px;
-   font-family: Poppins !important;
    color:white !important;
  }
 
@@ -66,24 +70,14 @@
 
 /*--------------MODAL TABS---------*/
 
-  .modal_principal{
-    height: 100% !important;
-    #border:5px solid purple;
-  }
-
   .title_modal_contact {
     font-size: 7vw !important;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: #3f87b3 !important;
-  }
-
-  .modal_contenido{
-    #border:5px solid yellow;
   }
 
   .nav_modal_tabs {
     width: 80% !important;
-    #border: 5px solid yellow;
     margin-bottom: 10px;
     position: relative;
     top: -3px !important;
@@ -106,12 +100,8 @@
     color: #fafaf9 !important;
   }
 
-  .Tabs_modal {
-    #border: 5px solid blue !important;
-    #height: 100% !important;
-  }
 
-  #pills-home {
+  #formulario_modal {
     position:relative;
     right: 4% !important;
     border: transparent;
@@ -119,7 +109,7 @@
     height: 100%;
   }
 
-  #pills-home form {
+  #formulario_modal form {
     position:relative;
     border-radius:0 ;
     top:-10px;
@@ -129,52 +119,50 @@
     left: 1.5% !important;
   }
 
-  #pills-home form textarea{
+  #formulario_modal form textarea{
     #border:4px solid red !important;
     height: 130px !important;
   }
 
-  #pills-home img {
+  #formulario_modal img {
     display:none;
   }
 
-  #div_collaborations {
+  #modal_collaborations {
+    display:flex;
     #border: 5px solid blue !important;
     width: 100% !important;
     margin-top: 10px;
     height: 440px !important;
   }
 
-  #div_collaborations textarea{
-    height: 130px !important;
+  #modal_collaborations h1{
+    #border:4px solid red;
+    font-size: 6.5vw !important;
   }
 
-  #div_collaborations .img_colab {
-    width: 30% !important;
-    display:none;
-  }
-
-  #div_collaborations img {
-    display:none;
-    width: 210px !important;
-    height: 300px !important;
-  }
-
-  #div_collaborations #envio_datos_modal {
-    #border: 5px solid yellow !important;
-    width: 100% !important;
-    height: 430px !important;
-  }
-
-  #div_collaborations #envio_datos_modal h1 {
-    font-size: 7vw !important;
-  }
-
-  #div_collaborations #envio_datos_modal p {
-    width: 100%;
+  #modal_collaborations p{
     #border:5px solid red;
-    text-align: start;
-    font-size: 4vw !important;
+    text-align:justify;
+    width: 100%;
+    position:relative;
+    top:-12px !important;
+  }
+
+  #modal_collaborations textarea{
+    height: 120px !important;
+    margin-bottom:25px !important;
+  }
+
+  #modal_collaborations .img_colab {
+    display:none;
+  }
+
+  #section_send_upload_data{
+    position:relative;
+    text-align: center;
+    right:9%;
+    #border:5px solid red;
   }
 
   .btn_modal {
@@ -189,12 +177,8 @@
   /*----------------Portada------------------------*/
   .Presentacion {
     position: relative;
-    top: 20px;
+    #top: 0px;
     #border: 5px solid red;
-    #background-image: url('/img/svg_1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 100% !important;
   }
@@ -203,73 +187,58 @@
     position: relative;
     #border: 5px solid red;
     width: 100% !important;
-    height: 410px !important;
+    height: 430px !important;
   }
 
   .Presentacion .txt_portada {
-    #display: none;
-    text-align: start;
-    padding-bottom: 5px !important;
     z-index: 100;
     position: absolute;
-    #border: 4px solid red;
-    margin-left: 4%;
-    top:14%;
+    top:20%;
+    left:5%;
     width: 60% !important;
-    #height: 100% !important;
   }
 
   .Presentacion .txt_1 {
     font-family: Poppins;
     font-size: 5vw;
     color: #F79C41 !important;
-    #border: 6px solid yellow;
   }
 
   .Presentacion .txt_2 {
     z-index: 100;
     position: relative;
     font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
     font-size: 7vw;
     color: #222222;
     z-index: 1000;
-    left:4%;
-    #border: 6px solid yellow;
   }
 
   .Presentacion .txt_3 {
     display:none;
-    border: 6px solid purple;
-    z-index: 100;
-    #position: absolute;
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 200%;
-    color: #333333;
-    width: 100% !important;
   }
 
-  .txt_4 {
+  .Presentacion button {
     #border: 6px solid yellow !important;
+    border-radius: 5px;
+    outline:none;
+    border:none;
     font-size: 4vw !important;
     z-index: 100;
     width: 155px;
     height: 47px;
     left: 135px;
     background: #3380AF !important;
-    border-radius: 6px;
-    outline: none;
-    border: none;
   }
 /*
   /*----------------Portada------------------------*/
   /*----------------Portafolio------------------------*/
+
   .secundario {
+    position:relative;
+    top:-50px;
     background-color: #f9f9f8 !important;
     #border: 5px solid blue;
+    height: 100% !important;
   }
 
   .secundario .Portafolio {
@@ -350,10 +319,10 @@
     #border:5px solid red;
     margin-top:8% !important;
     font-size: 5vw !important;
+    margin-bottom:5%;
   }
 
   .accordion{
-
     display: flex;
     flex-wrap: wrap;
   }
@@ -379,8 +348,17 @@
 
   /* PORTAFOLIOS DE SERVICIOS*/
   /*TABS FORMULARIO Y Collaborations*/
+
+  /*.Marco_Tabs_Principal{
+    border:5px solid yellow;
+    width: 10% !important;
+  }*/
+
   .Tabs_Principal {
+    position:relative;
+    right:5%;
     #border: 5px solid blue !important;
+    width: 110% !important;
   }
 
   .Tabs_Principal li {
@@ -397,7 +375,7 @@
   .Marco_Tabs_Principal {
     #border: 5px solid yellow !important;
     margin: auto;
-    width: 85% !important;
+    width: 92% !important;
   }
 
   /*----------------Publicidad------------------------*/
@@ -409,36 +387,34 @@
   }
 
   .Formulario form {
-    position: absolute;
-    margin-top: 30px !important;
+    position: relative;
     padding: 40px;
     margin-left: 1%;
     background: #C3212C;
-    width: 450px;
-    height: 600px;
     border-radius: 17px;
+    right:1%;
+    width: 100% !important;
+    height: 520px;
   }
+
+  .Formulario form input{
+    #border:5px solid red;
+    margin-top:7%;
+  }
+
+  .Formulario form textarea{
+    margin-top:7%;
+    height: 110px !important;
+  }
+
 
   .Formulario img {
-    display:none;/*
-    #border: 5px solid yellow !important;
-    width: 100%;
-    #border-radius: 16px;
-    height: 100%;*/
-  }
-
-  .Formulario form {
-    position:relative;
-    right:3%;
-    width: 105% !important;
-    height: 570px;
+    display:none;
   }
 
   .Formulario form p {
-    position: relative;
     border: 1px solid #F79C41;
     width: 100%;
-    height: 0px;
   }
 
   .Formulario form h1 {
@@ -456,12 +432,6 @@
     color: #F8F8F8;
   }
 
-  .Formulario form textarea{
-    position:relative;
-    #border:5px solid purple;
-    height: 110px !important;
-  }
-
   .Formulario button {
     font-size: 4vw !important;
     color: white;
@@ -477,25 +447,67 @@
   /*----------------Colaboracion------------------------*/
   .Collaborations {
     position: relative;
-    top: 0px;
+    top: -30px !important;
     margin: auto;
     #border: 3px solid purple;
-    width: 100.5%;
-    height: 550px !important;
-  }
-
-  .Collaborations img {
-    display:none;
-    width: 100%;
-    height: 100%;
-  }
-
-  .img_colab {
-    display:none;
-    width: 40% !important;
+    height: 425px !important;
+    padding: 25px;
+    background-color: #F79C41;
+    width: 100% !important;
   }
 
   .envio_datos {
+    #padding: 35px;
+    background-color: #F79C41;
+    width: 100% !important;
+  }
+
+
+  .envio_datos p{
+    font-size:4.5vw;
+    text-align:justify;
+    width: 100%;
+    position:relative;
+    margin-top:10%;
+    #border:5px solid red !important;
+  }
+
+  .envio_datos textarea{
+    position:relative;
+    margin-top: 12% !important;
+    right:0%;
+    width: 100% !important;
+    #border:4px solid red !important;
+    height: 130px !important;
+  }
+
+  .Collaborations .img_colab{
+    display:none;
+  }
+
+  .btn_enviar{
+    position:relative;
+    display:flex;
+    #border:5px solid red;
+    margin-top: 11%;
+    #margin:auto;
+    left:10%;
+    width: 98% !important;
+    font-size: 4.4vw !important;
+  }
+
+  .btn_send {
+    font-size:4vw !important;
+    width: 131.77px;
+    height: 41.34px;
+    background: #3380AF;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: #F8F8F8;
+  }
+
+  /*.envio_datos {
     padding: 35px;
     background-color: #F79C41;
     width: 100% !important;
@@ -510,10 +522,6 @@
     outline: none;
     border: none;
     color: #F8F8F8;
-  }
-
-  .Collaboration {
-    width: 100
   }
 
   .Collaborations h1 {
@@ -554,17 +562,14 @@
 
 
   /*----------------Colaboracion------------------------*/
-  /*----------accordion-------------*/
-
-
-  /*----------accordion-------------*/
 
   /*----------------Footer------------------------*/
   .footer {
     position:relative;
     flex-direction:column !important;
+    margin-top:20% !important;
     top:-70px !important;
-    #border:5px solid red;
+    border:5px solid red;
     margin: auto;
     height: 100% !important;
     width: 85%;
