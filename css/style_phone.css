@@ -173,9 +173,12 @@
   #section_send_upload_data{
     position:relative;
     text-align: center;
-    right:9%;
+    justify-content:center !important;
+    #right:9%;
     #border:5px solid red;
   }
+
+
 
   .btn_modal {
     background-color: #3f87b3 !important;
