@@ -162,12 +162,12 @@
     text-align:justify;
     width: 100%;
     position:relative;
-    top:-30px !important;
+    top:3px !important;
   }
 
   #modal_collaborations textarea{
     position:relative;
-    top:-50px;
+    top:10px;
     height: 80px !important;
     #margin-bottom:0px !important;
   }
@@ -190,7 +190,7 @@
     #border:5px solid red;
     font-size:1vw !important;
     position:relative;
-    top:-33%;
+    top:10%;
     justify-content:end !important;
     #right:9%;
   }
@@ -542,7 +542,11 @@
   }
 
   .Collaborations .img_colab{
-    #display:blovk;
+    position:relative;
+    right: 2%;
+    top:-6.6%;
+    width: 38%;
+    height: 425px;
   }
 
   .Collaborations img{
@@ -709,11 +713,11 @@
 
   .end_pagina_img{
     position:relative;
-    top:-15px;
+    top:-10px;
   }
 
   .end_page img {
     position:relative;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
   }
