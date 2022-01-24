@@ -1,5 +1,5 @@
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width:1500px) {
   .mantenimiento {
     display: none;
   }
@@ -577,60 +577,6 @@
     color: #F8F8F8;
   }
 
-  /*.envio_datos {
-    padding: 35px;
-    background-color: #F79C41;
-    width: 100% !important;
-  }
-
-  .btn_send {
-    font-size:4vw !important;
-    width: 131.77px;
-    height: 41.34px;
-    background: #3380AF;
-    border-radius: 6px;
-    outline: none;
-    border: none;
-    color: #F8F8F8;
-  }
-
-  .Collaborations h1 {
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 7.3vw;
-    color: #333333;
-  }
-
-  .Collaborations .txt_datos {
-    margin-top: 12% !important;
-    #border:4px solid red;
-    text-align: start;
-    font-family: Inter, sans-serif;
-    font-size:4.5vw;
-    line-height: 187.5%;
-    color: #525252 !important;
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  .envio_datos textarea{
-    position:relative;
-    right:5%;
-    width: 110% !important;
-    #border:4px solid red !important;
-    height: 130px !important;
-  }
-
-  .btn_enviar{
-    position:relative;
-    right:21%;
-    width: 120% !important;
-    #border:5px solid purple !important;
-    font-size: 4.4vw !important;
-  }
-
-
-
   /*----------------Colaboracion------------------------*/
 
   /*----------------Footer------------------------*/
@@ -718,6 +664,6 @@
 
   .end_page img {
     position:relative;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
