@@ -1,37 +1,33 @@
 
-@media (min-width: 992px) and (max-width:1500px) {
-  .mantenimiento {
-    display: none;
-  }
+@media (min-width: 992px) /*and (max-width: 1650px)*/{
 
-  .Principal{
-    #border:5px solid red;
-    height:100% !important;
+  .Principal {
+    #border: 5px solid red;
+    height: 100% !important;
   }
-
 
   /*--------------NAV---------*/
   .navbar-brand img {
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
     left: 2%;
-    top: 10px;
+    top: -1px;
   }
 
   .navbar-brand span {
-    margin-left: 70px;
     position: relative;
-    top: -0px !important;
-    font-size: 1.2vw !important;
+    margin-left: 0.05%;
+    top: 0.7vh !important;
+    font-size: calc(1em + 0.01vw) !important;
     color: #3f87b3 !important;
     font-family: 'Poppins', sans-serif;
   }
 
   nav li {
     position: relative;
-    font-size: 1.2vw !important;
-    text-align:right;
+    font-size: calc(1em + 0.2vw) !important;
+    text-align: right;
     padding-right: 10px !important;
     #border: 6px solid red;
     font-family: 'Poppins', sans-serif;
@@ -39,28 +35,25 @@
     color: #3f87b3 !important;
   }
 
-  nav li a{
+  nav li a {
     color: #3f87b3 !important;
   }
 
   nav .Contact button {
-   background-color: rgb(51, 128, 175);
-   border-radius: 6px;
-   color:white !important;
- }
+    background-color: rgb(51, 128, 175);
+    border-radius: 6px;
+    color: white !important;
+  }
 
   nav {
-    border:transparent !important;
+    border: transparent !important;
     background: #fafaf9 !important;
   }
 
-/*--------------NAV---------*/
-
-
-/*--------------MODAL TABS---------*/
-
+  /*--------------NAV---------*/
+  /*--------------MODAL TABS---------*/
   .title_modal_contact {
-    font-size: 2vw !important;
+    font-size: calc(1em + 1vw) !important;
     font-family: 'Poppins', sans-serif;
     color: #3f87b3 !important;
   }
@@ -78,7 +71,7 @@
   }
 
   .nav_modal_tabs button {
-    font-size: 2vw !important;
+    font-size: calc(1em + 2.1vw) !important;
     color: #3f87b3 !important;
   }
 
@@ -89,115 +82,118 @@
     color: #fafaf9 !important;
   }
 
-
   #formulario_modal {
-    position:relative;
+    position: relative;
+    #top: -15vw;
     right: 4% !important;
     border: transparent;
     width: 50% !important;
     height: 100%;
   }
 
-  #formulario_modal input{
-    position:relative;
-    #border:5px solid red ;
-    margin-top:0px !important;
-    top:-0px !important;
+  #formulario_modal input {
+    position: relative;
+    #border: 5px solid red;
+    margin-top: 0px !important;
+    top: -0px !important;
   }
 
-    #formulario_modal textarea{
-      margin-top:0px !important;
-    }
+  #formulario_modal textarea {
+    margin-top: 0px !important;
+  }
 
   #formulario_modal form {
     z-index: 100;
-    position:absolute;
-    border-radius:3% ;
-    top:23px;
-    padding:25px !important;
+    position: absolute;
+    border-radius: 3%;
+    top: -50px !important;
+    padding: 25px !important;
     width: 94% !important;
-    height:550px !important;
     left: 12% !important;
+    height: 520px !important;
   }
 
-  #formulario_modal form textarea{
-    #border:4px solid red !important;
-    height: 130px !important;
+  #formulario_modal form textarea {
+    #border: 4px solid red !important;
+    height: 90px !important;
   }
 
   #formulario_modal img {
-    position:relative;
-    left:32% !important;
+    position: relative;
+    left: 32% !important;
     width: 650px !important;
     height: 600px !important;
-    display:block;
-    #border:5px solid red !important;
+    display: block;
+    #border: 5px solid red !important;
   }
 
-  #formulario_modal button{
-    font-size: 1.2vw !important;
+  #formulario_modal button {
+    font-size: calc(1em + 0.2vw) !important;
   }
 
   #modal_collaborations {
     position: relative;
-    display:flex;
+    display: flex;
     #border: 5px solid blue !important;
     width: 100% !important;
+    height: 500px;
     margin-top: 50px;
-    height: 300px !important;
+    padding-bottom: 52% !important;
   }
 
-  #modal_collaborations .envio_datos{
-    #border:5px solid red;
+  #modal_collaborations .envio_datos {
+    #border: 5px solid red;
   }
 
-  #modal_collaborations h1{
-    #border:4px solid red;
-    font-size: 1.4vw !important;
+  #modal_collaborations h1 {
+    #border: 4px solid red;
+    font-size: calc(1em + 1.5vw) !important;
   }
 
-  #modal_collaborations p{
-    font-size: 1vw !important;
-    #border:5px solid red;
-    text-align:justify;
+  #modal_collaborations p {
+    font-size: calc(1em + 0.3vw) !important;
+    #border: 5px solid red;
+    text-align: justify;
     width: 100%;
-    position:relative;
-    top:3px !important;
+    position: relative;
+    top: 3px !important;
   }
 
-  #modal_collaborations textarea{
-    position:relative;
-    top:10px;
-    height: 80px !important;
-    #margin-bottom:0px !important;
+  #modal_collaborations textarea {
+    position: relative;
+    top: 1vw;
+    height: 140px !important;
+    #margin-bottom: 0px !important;
   }
 
   #modal_collaborations .img_colab {
-    display:block;
-    position:relative;
+    #border:5px solid red;
+    display: block;
+    position: relative;
     right: 3.5%;
-    top:-25px;
-    width:400px !important;
-    height: 300px !important;
+    top: 0px;
+    width: 70% !important;
+    height: 500px !important;
   }
 
-  #modal_collaborations img{
-    width:100%;
+  #modal_collaborations img {
+    width: 100%;
     height: 100%;
   }
 
-  #section_send_upload_data{
-    #border:5px solid red;
-    font-size:1vw !important;
-    position:relative;
-    top:10%;
-    justify-content:end !important;
-    #right:9%;
+  #section_send_upload_data {
+    #border: 5px solid red;
+    font-size: calc(1em + 0.5vw) !important;
+    position: relative;
+    top: 1vh;
+    justify-content: flex-end !important;
+    #right: 9%;
   }
 
-  #modal_btn{
-    #border:5px solid red;
-    font-size:1vw !important;
+  #modal_btn {
+    width: 40%;
+    #border: 5px solid red;
+    font-size: calc(1em + 0.09vw) !important;
   }
 
   .btn_modal {
@@ -205,10 +201,7 @@
     color: white !important;
   }
 
-
-/*--------------MODAL TABS---------*/
-
-
+  /*--------------MODAL TABS---------*/
   /*----------------Portada------------------------*/
   .Presentacion {
     position: relative;
@@ -228,10 +221,10 @@
   .Presentacion .txt_portada {
     z-index: 100;
     position: absolute;
-    top:15%;
-    left:5%;
+    top: 15%;
+    left: 5%;
     width: 40% !important;
-    #border:5px solid red;
+    #border: 5px solid red;
   }
 
   .Presentacion .txt_1 {
@@ -250,16 +243,16 @@
   }
 
   .Presentacion .txt_3 {
-    display:block;
+    display: block;
     font-size: 1.3vw;
   }
 
   .Presentacion button {
-    margin-top:7%;
+    margin-top: 7%;
     #border: 6px solid yellow !important;
     border-radius: 5px;
-    outline:none;
-    border:none;
+    outline: none;
+    border: none;
     font-size: 1vw !important;
     z-index: 100;
     width: 155px;
@@ -267,13 +260,13 @@
     left: 135px;
     background: #3380AF !important;
   }
-/*
+
+  /*
   /*----------------Portada------------------------*/
   /*----------------Portafolio------------------------*/
-
   .secundario {
-    position:relative;
-    top:-50px;
+    position: relative;
+    top: -50px;
     background-color: #f9f9f8 !important;
     #border: 5px solid blue;
     height: 100% !important;
@@ -295,8 +288,8 @@
 
   .Portafolio .dispositivos {
     position: relative;
-    text-align:center !important;
-    left:1%;
+    text-align: center !important;
+    left: 1%;
     #border: 5px solid black !important;
     width: 48% !important;
   }
@@ -311,8 +304,8 @@
 
   .Portafolio section h1 {
     width: 100%;
-    text-align:center;
-    #border:5px solid blue;
+    text-align: center;
+    #border: 5px solid blue;
     position: relative;
     margin-top: 10%;
     font-family: Poppins;
@@ -323,7 +316,7 @@
     margin-top: 10% !important;
     position: relative;
     #left: 13%;
-    top:-35px !important;
+    top: -35px !important;
     width: 100% !important;
     #border: 5px solid red !important;
     font-size: 2vw !important;
@@ -331,37 +324,33 @@
   }
 
   /*----------------Portafolio------------------------*/
-
   /*----------------Publicidad------------------------*/
   /* PORTAFOLIOS DE SERVICIOS */
-
-
-  .Publicidad_Img h1{
+  .Publicidad_Img h1 {
     margin-top: 5%;
-    #border:4px solid purple;
+    #border: 4px solid purple;
     font-size: 5vw !important;
   }
 
-  .Publicidad_Img p{
+  .Publicidad_Img p {
     margin: auto;
     width: 40%;
-    #border:5px solid red;
-    margin-top:4% !important;
+    #border: 5px solid red;
+    margin-top: 4% !important;
     font-size: 1.5vw !important;
-    margin-bottom:3%;
+    margin-bottom: 3%;
   }
 
-
   .Portafolio_Servicios h2 {
-    #border:4px solid red;
+    #border: 4px solid red;
     #font-size: 1.5vw !important;
     font-family: Poppins !important;
   }
 
   .Portafolio_Servicios {
-    position:relative;
+    position: relative;
     margin: auto;
-    top:-30px;
+    top: -30px;
     #border: 5px solid purple !important;
     margin-bottom: 0% !important;
     #padding-bottom: 35px;
@@ -370,13 +359,13 @@
     padding: 0px !important;
   }
 
-  .accordion{
+  .accordion {
     display: flex;
     flex-wrap: wrap;
   }
 
   .accordion-item {
-    position:relative;
+    position: relative;
     right: 1%;
     border-left: 5px solid red !important;
     margin: auto;
@@ -386,27 +375,23 @@
     margin-bottom: 2.5% !important;
     margin-left: 2% !important;
     border: none;
-
   }
 
   .accordion-button {
-    font-size:1vw !important;
+    font-size: 1vw !important;
     background-color: #fafaf9 !important;
     border: none;
   }
 
-
   /* PORTAFOLIOS DE SERVICIOS*/
   /*TABS FORMULARIO Y Collaborations*/
-
   /*.Marco_Tabs_Principal{
     border:5px solid yellow;
     width: 10% !important;
   }*/
-
   .Tabs_Principal {
-    position:relative;
-    right:5%;
+    position: relative;
+    right: 5%;
     #border: 5px solid blue !important;
     width: 110% !important;
   }
@@ -432,37 +417,41 @@
   /*----------------Formulario------------------------*/
   .Formulario {
     #border: 5px solid purple;
+    text-align: center;
     width: 100% !important;
     height: 100%;
   }
 
   .Formulario form {
+    #border:5px solid blue;
     position: absolute;
     margin-top: 40px !important;
+    margin-left:5% !important;
     z-index: 100;
     padding: 40px;
     background: #C3212C;
     border-radius: 17px;
-    right:58%;
-    width: 30% !important;
-    height: 550px;
+    #right: 37% !important;
+    width: 470px !important;
   }
 
-  .Formulario form input{
-    #border:5px solid red;
-    margin-top:7%;
+  .Formulario form input {
+    #border: 5px solid red;
+    margin-top: 7%;
+    height: 3.5vh;
   }
 
-  .Formulario form textarea{
-    margin-top:7%;
+  .Formulario form textarea {
+    margin-top: 7%;
     height: 110px !important;
   }
 
   .Formulario img {
-    margin:auto;
-    display:block;
-    width:90%;
-    height: 640px;
+    #border:5px solid red;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 78vh !important;
   }
 
   .Formulario form p {
@@ -486,7 +475,7 @@
   }
 
   .Formulario button {
-    font-size: 1vw !important;
+    font-size: calc(1em + 0.2vw) !important;
     color: white;
     width: 131.77px;
     height: 41.34px;
@@ -503,73 +492,73 @@
     top: -30px !important;
     margin: auto;
     #border: 3px solid purple;
-    height: 425px !important;
-    padding: 25px;
+    #padding: 25px;
     background-color: #F79C41;
     width: 100% !important;
+    height:calc(1em + 0.2vw) ! !important;
   }
 
   .envio_datos {
-    #border:5px solid red;
-    padding: 15px;
+    #border: 5px solid red;
+    padding: 35px;
     background-color: #F79C41;
     width: 100% !important;
-    #height: 100%;
   }
 
-  .envio_datos h1{
-    font-size: 2vw !important;
+  .envio_datos h1 {
+    padding-top: 20px!important;
+    #border:6px solid red;
+    font-size: calc(1em + 2vw) !important;
   }
 
-  .envio_datos p{
+  .envio_datos p {
     #margin: auto;
     width: 100% !important;
-    font-size:1.5vw;
-    text-align:justify;
-    width: 100%;
-    position:relative;
-    margin-top:3%;
-    #border:5px solid blue !important;
+    font-size: calc(1em + 0.8vw) !important;
+    text-align: justify;
+    width: 80% !important;
+    position: relative;
+    margin-top: 5%;
+    #border: 5px solid blue !important;
   }
 
-  .envio_datos textarea{
-    position:relative;
-    margin-top: 3% !important;
-    right:0%;
+  .envio_datos textarea {
+    position: relative;
+    margin-top: 5% !important;
+    right: 0%;
     width: 100% !important;
-    #border:4px solid red !important;
-    height: 140px !important;
+    #border: 4px solid red !important;
+    height: 200px !important;
   }
 
-  .Collaborations .img_colab{
-    position:relative;
-    right: 2%;
-    top:-6.6%;
-    width: 38%;
-    height: 425px;
+  .Collaborations .img_colab {
+    #border:5px solid red;
+    position: relative;
+    left: 0%;
+    #top: -6.6%;
+    width: 55%;
+    height: 100% ! !important;
   }
 
-  .Collaborations img{
+  .Collaborations img {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
   }
 
-  .btn_enviar{
-    position:relative;
-    display:flex;
-    justify-content:end !important;
-    #border:5px solid red !important;
-    margin-top: 1%;
-    #margin:auto;
-    #left:10%;
+  .btn_enviar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end !important;
+    #border: 5px solid red !important;
+    margin-top: 10% !important;
     width: 100% !important;
-    font-size: 1vw !important;
+    font-size: calc(1em + 0.8vw) !important ;
   }
 
   .btn_send {
-    font-size:1vw !important;
-    width: 131.77px;
-    height: 41.34px;
+    font-size: calc(1em + 0.1vw) !important;
+    width: 20%;
+    height: 55px;
     background: #3380AF;
     border-radius: 6px;
     outline: none;
@@ -578,12 +567,11 @@
   }
 
   /*----------------Colaboracion------------------------*/
-
   /*----------------Footer------------------------*/
   .footer {
-    position:relative;
-    margin-top:2% !important;
-    #border:5px solid red;
+    position: relative;
+    margin-top: 2% !important;
+    #border: 5px solid red;
     margin: auto;
     height: 100% !important;
     width: 82%;
@@ -592,7 +580,7 @@
 
   .footer section {
     flex-direction: row !important;
-    #border:5px solid yellow;
+    #border: 5px solid yellow;
     width: 50%;
   }
 
@@ -601,10 +589,10 @@
     font-size: 0.7vw !important;
   }
 
-  .footer ul{
+  .footer ul {
     padding: 0px !important;
     width: 100%;
-    #border:5px solid red;
+    #border: 5px solid red;
     text-align: left !important;
   }
 
@@ -612,58 +600,58 @@
     color: #3f87b3 !important;
     font-family: Poppins;
     font-size: 1.3vw !important;
-    #border:5px solid red;
+    #border: 5px solid red;
     padding: 0px !important;
     text-align: start !important;
     display: inline;
     list-style: none;
-    margin-left:7%;
+    margin-left: 7%;
   }
 
-
-  .icons_footer{
+  .icons_footer {
     width: 50% !important;
     text-align: end !important;
-    #border:5px solid yellow;
+    #border: 5px solid yellow;
     margin-top:  !important;
     padding-bottom: 15px !important;
   }
 
-    .icons_footer svg{
-      position:relative;
-      margin-top:1.4%;
-        font-size: 1.3vw !important;
-        margin-left: 8%;
-        right: 3% !important;
-    }
+  .icons_footer svg {
+    position: relative;
+    margin-top: 1.4%;
+    font-size: 1.3vw !important;
+    margin-left: 8%;
+    right: 3% !important;
+  }
 
   /*----------------Footer------------------------*/
   /*----------------End_page------------------------*/
   .end_page {
-    position:relative;
-    top:-100px !important;
+    position: relative;
+    top: -100px !important;
     font-size: 14px;
     margin: auto;
     width: 80%;
     #border: 5px solid red !important;
   }
 
-  .end_page section{
+  .end_page section {
     text-align: center !important;
     margin: auto;
-    font-size:1.2vw !important;
-    #border:5px solid purple;
-    width:70% !important;
+    font-size: 1.2vw !important;
+    #border: 5px solid purple;
+    width: 70% !important;
     margin-top: 8% !important;
   }
 
-  .end_pagina_img{
-    position:relative;
-    top:-10px;
+  .end_pagina_img {
+    position: relative;
+    top: -10px;
   }
 
   .end_page img {
-    position:relative;
+    position: relative;
     width: 60px;
     height: 60px;
   }
+}
