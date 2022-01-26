@@ -378,7 +378,7 @@
 
   .accordion-item {
     #font-size:8vw !important;
-    border-left: 5px solid red !important;
+    #border-left: 5px solid red !important;
     margin: auto;
     width: 80% !important;
     #height: 100% !important;
