@@ -240,7 +240,7 @@
     font-size: 4vw !important;
     z-index: 100;
     width: 155px;
-    height: 47px;
+    height: 100%;
     left: 135px;
     background: #3380AF !important;
   }
@@ -409,7 +409,7 @@
     border-radius: 17px;
     right:1%;
     width: 100% !important;
-    height: 520px;
+    height: 100%;
   }
 
   .Formulario form input{
