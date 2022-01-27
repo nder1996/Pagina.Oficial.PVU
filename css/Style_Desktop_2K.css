@@ -24,7 +24,7 @@
 
   nav li {
     position: relative;
-    font-size: calc(1em + 0.2vw) !important;
+    font-size: calc(1em + 0.5vw) !important;
     text-align: right;
     padding-right: 10px !important;
     #border: 6px solid red;
@@ -41,6 +41,7 @@
     background-color: rgb(51, 128, 175);
     border-radius: 6px;
     color: white !important;
+    font-size: calc(1px + 1.2vw) !important;
   }
 
   nav {
@@ -51,7 +52,7 @@
   /*--------------NAV---------*/
   /*--------------MODAL TABS---------*/
   .title_modal_contact {
-    font-size: calc(1em + 1vw) !important;
+  font-size: calc(1em + 0.5vw) !important;
     font-family: 'Poppins', sans-serif;
     color: #3f87b3 !important;
   }
@@ -69,7 +70,7 @@
   }
 
   .nav_modal_tabs button {
-    font-size: calc(1em + 2.1vw) !important;
+    font-size: calc(1em + 1vw) !important;
     color: #3f87b3 !important;
   }
 
@@ -83,7 +84,7 @@
   #formulario_modal {
     position: relative;
     #top: -15vw;
-    right: 4% !important;
+    right: 30% !important;
     border: transparent;
     width: 50% !important;
     height: 100%;
@@ -101,14 +102,14 @@
   }
 
   #formulario_modal form {
+    #border:5px solid yellow;
     z-index: 100;
     position: absolute;
     border-radius: 3%;
-    margin-top: 10% !important;
+    margin-top: 7% !important;
     padding: 25px !important;
     width: 94% !important;
     left: 12% !important;
-    height: 520px !important;
   }
 
   #formulario_modal form textarea {
@@ -129,14 +130,15 @@
     font-size: calc(1em + 0.2vw) !important;
   }
 
+
   #modal_collaborations {
     position: relative;
     display: flex;
     #border: 5px solid blue !important;
     width: 100% !important;
-    height: 500px;
+    height:100% !important;
     margin-top: 50px;
-    padding-bottom: 52% !important;
+    #padding-bottom: 52% !important;
   }
 
   #modal_collaborations .envio_datos {
@@ -145,14 +147,14 @@
 
   #modal_collaborations h1 {
     #border: 4px solid red;
-    font-size: calc(1em + 1.5vw) !important;
+    font-size: calc(1em + 1vw) !important;
   }
 
   #modal_collaborations p {
     font-size: calc(1em + 0.3vw) !important;
     #border: 5px solid red;
     text-align: justify;
-    width: 100%;
+    width: 100% !important;
     position: relative;
     top: 3px !important;
   }
@@ -160,7 +162,7 @@
   #modal_collaborations textarea {
     position: relative;
     top: 1vw;
-    height: 140px !important;
+    height: 120px !important;
     #margin-bottom: 0px !important;
   }
 
@@ -171,7 +173,6 @@
     right: 3.5%;
     top: 0px;
     width: 70% !important;
-    height: 500px !important;
   }
 
   #modal_collaborations img {
@@ -180,21 +181,22 @@
   }
 
   #section_send_upload_data {
-    #border: 5px solid red;
+    #border: 5px solid green !important;
     font-size: calc(1em + 0.5vw) !important;
     position: relative;
-    top: 1vh;
+    top: 1.5vh !important;
     justify-content: flex-end !important;
     #right: 9%;
   }
 
   #modal_btn {
-    width: 40%;
-    #border: 5px solid red;
-    font-size: calc(1em + 0.09vw) !important;
+    padding: 5px !important;
+    #border: 5px solid blue;
+    font-size: 1vw !important;
   }
 
   .btn_modal {
+
     background-color: #3f87b3 !important;
     color: white !important;
   }
@@ -213,7 +215,7 @@
     position: relative;
     #border: 5px solid red;
     width: 100% !important;
-    height: 672px !important;
+    height: 95vh !important;
   }
 
   .Presentacion .txt_portada {
@@ -227,7 +229,7 @@
 
   .Presentacion .txt_1 {
     font-family: Poppins;
-    font-size: 1.8vw;
+    font-size: calc(1em + 1vw) !important;
     color: #F79C41 !important;
   }
 
@@ -235,17 +237,19 @@
     z-index: 100;
     position: relative;
     font-family: Poppins;
-    font-size: 2.5vw;
+    font-size: calc(1em + 2.5vw) !important;
     color: #222222;
     z-index: 1000;
   }
 
   .Presentacion .txt_3 {
     display: block;
-    font-size: 1.3vw;
+    font-size: calc(1em + 0.5vw) !important;
+    line-height: 160% !important;
   }
 
   .Presentacion button {
+    padding:16px !important;
     margin-top: 7%;
     #border: 6px solid yellow !important;
     border-radius: 5px;
@@ -253,8 +257,8 @@
     border: none;
     font-size: 1vw !important;
     z-index: 100;
-    width: 155px;
-    height: 47px;
+    #width: 155px;
+    height: 100%;
     left: 135px;
     background: #3380AF !important;
   }
@@ -280,16 +284,18 @@
 
   .Portafolio .txt_portafolio {
     overflow: hidden !important;
-  #  border: 5px solid green;
-    width: 35%;
+   #border: 5px solid green;
+    width: 34%;
+      height: 630px;
   }
 
   .Portafolio .dispositivos {
     position: relative;
     text-align: center !important;
-    left:1%;
+    left:1.7%;
   #  border: 5px solid black !important;
-    width: 62% !important;
+    width: 63% !important;
+    height: 100% !important;
   }
 
   .Portafolio img {
@@ -318,28 +324,40 @@
       position: relative;
       left: 30%;
       text-align: start;
-      margin-top: 10px;
       /*margin: auto;*/
       #border: 5px solid red !important;
       width: 70%;
-      height: 340px;
+      height: 440px;
+  }
+
+  .Ruleta p{
+    #border:5px solid red;
+      margin-top: 40px;
   }
 
   #ruleta_1 {}
 
   #ruleta_2 {
       text-align: center !important;
+
   }
 
   #ruleta_3 {
       opacity: 100%;
       text-align: end !important;
       font-weight: bold;
+
   }
 
   #ruleta_4 {
-      text-align: center !important;
+        text-align: center !important;
+
   }
+
+  #ruleta_5 {
+      text-align: start !important;
+  }
+
   /*-------RULETA -------------*/
 
 
@@ -436,9 +454,10 @@
   /*----------------Publicidad------------------------*/
   /*----------------Formulario------------------------*/
   .Formulario {
+    margin: auto;
     #border: 5px solid purple;
     text-align: center;
-    width: 100% !important;
+    width: 90% !important;
     height: 100%;
   }
 
@@ -452,7 +471,7 @@
     background: #C3212C;
     border-radius: 17px;
     #right: 37% !important;
-    width: 470px !important;
+    width: 22% !important;
   }
 
   .Formulario form input {
@@ -467,11 +486,11 @@
   }
 
   .Formulario img {
-    border:5px solid red;
+    #border:5px solid red;
     margin: auto;
     display: block;
     width: 100%;
-    height: 100% !important;
+    height: 40vw !important;
   }
 
   .Formulario form p {
@@ -507,19 +526,24 @@
 
   /*----------------Formulario------------------------*/
   /*----------------Colaboracion------------------------*/
+
+  /*.collaborations_Principal{
+    border:5px solid red;
+    height: 100% !important;
+  }*/
+
   .Collaborations {
     position: relative;
     top: -30px !important;
     margin: auto;
     #border: 3px solid purple;
-    #padding: 25px;
     background-color: #F79C41;
     width: 100% !important;
-    height:calc(1em + 0.2vw) ! !important;
+    height: 35vw !important;
   }
 
   .envio_datos {
-    #border: 5px solid red;
+  #  border: 5px solid red;
     padding: 35px;
     background-color: #F79C41;
     width: 100% !important;
@@ -548,7 +572,7 @@
     right: 0%;
     width: 100% !important;
     #border: 4px solid red !important;
-    height: 200px !important;
+    height: 120px !important;
   }
 
   .Collaborations .img_colab {
@@ -570,15 +594,15 @@
     display: flex;
     justify-content: flex-end !important;
     #border: 5px solid red !important;
-    margin-top: 10% !important;
-    width: 100% !important;
+    margin-top: 5% !important;
     font-size: calc(1em + 0.8vw) !important ;
   }
 
   .btn_send {
-    font-size: calc(1em + 0.1vw) !important;
-    width: 20%;
-    height: 55px;
+    #text-align: start !important;
+    font-size: calc(1em + 0.09vw) !important;
+    padding:10px !important;
+    #padding: 50px  !important;
     background: #3380AF;
     border-radius: 6px;
     outline: none;
@@ -590,11 +614,11 @@
   /*----------------Footer------------------------*/
   .footer {
     position: relative;
-    margin-top: 2% !important;
+    margin-top: 5% !important;
     #border: 5px solid red;
     margin: auto;
     height: 100% !important;
-    width: 82%;
+    width: 90%;
     border-bottom: 1px solid black;
   }
 
@@ -604,10 +628,6 @@
     width: 50%;
   }
 
-  .punto_home {
-    color: #3f87b3 !important;
-    font-size: 0.7vw !important;
-  }
 
   .footer ul {
     padding: 0px !important;
@@ -651,7 +671,7 @@
     top: -100px !important;
     font-size: 14px;
     margin: auto;
-    width: 80%;
+    width: 100%;
     #border: 5px solid red !important;
   }
 
