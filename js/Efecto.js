@@ -1,5 +1,18 @@
 $(document).ready(function() {
 
+
+  //$(window).resize(function(){
+
+    //     if ($(window).width() <= 1650) {
+
+      //        $('.Principal').css("display","none")
+              //$("body").css('background-image',"url('http://sahaguncordoba.com/noticias/wp-content/uploads/2016/02/mantenimiento.png')")
+
+        // }
+
+  //});
+
+
   $('.nav-link').click(function() {
     var active = $(this).attr("id");
     if (active == 'pills-contacts-tab') {

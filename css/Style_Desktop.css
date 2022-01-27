@@ -1,5 +1,5 @@
 
-@media (min-width: 992px) /*and (max-width: 1650px)*/{
+@media (min-width: 992px) and (max-width: 1650px){
 
   .Principal {
     #border: 5px solid red;
