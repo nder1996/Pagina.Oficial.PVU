@@ -106,7 +106,7 @@
     z-index: 100;
     position: absolute;
     border-radius: 3%;
-    top: -50px !important;
+    margin-top: 10% !important;
     padding: 25px !important;
     width: 94% !important;
     left: 12% !important;
@@ -282,16 +282,16 @@
 
   .Portafolio .txt_portafolio {
     overflow: hidden !important;
-    #border: 5px solid green;
-    width: 50%;
+  #  border: 5px solid green;
+    width: 35%;
   }
 
   .Portafolio .dispositivos {
     position: relative;
     text-align: center !important;
-    left: 1%;
-    #border: 5px solid black !important;
-    width: 48% !important;
+    left:1%;
+  #  border: 5px solid black !important;
+    width: 62% !important;
   }
 
   .Portafolio img {
@@ -315,7 +315,7 @@
 
   /*-------RULETA -------------*/
   .Ruleta {
-      font-size: calc(1em + 0.7vw) !important;
+      font-size: calc(1em + 0.5vw) !important;
       #opacity: 50%;
       position: relative;
       left: 30%;
@@ -323,7 +323,7 @@
       margin-top: 10px;
       /*margin: auto;*/
       #border: 5px solid red !important;
-      width: 50%;
+      width: 70%;
       height: 340px;
   }
 
@@ -445,7 +445,7 @@
   }
 
   .Formulario form {
-    #border:5px solid blue;
+  #border:5px solid blue;
     position: absolute;
     margin-top: 40px !important;
     margin-left:5% !important;
@@ -469,11 +469,11 @@
   }
 
   .Formulario img {
-    #border:5px solid red;
+  #  border:5px solid red;
     margin: auto;
     display: block;
     width: 100%;
-    height: 78vh !important;
+    height: 60vh !important;
   }
 
   .Formulario form p {
