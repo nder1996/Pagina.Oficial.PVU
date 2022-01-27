@@ -295,16 +295,37 @@
     font-size: 8vw;
   }
 
-  .ruleta_carrusel {
-    margin-top: 10% !important;
-    position: relative;
-    #left: 13%;
-    top:-35px !important;
-    width: 100% !important;
-    #border: 5px solid red !important;
-    font-size: 5.8vw !important;
-    text-align: center !important;
-  }
+
+    /*-------RULETA -------------*/
+    .Ruleta {
+        font-size: calc(1em + 0.5vw) !important;
+        #opacity: 50%;
+        position: relative;
+        left: 30%;
+        text-align: start;
+        margin-top: 10px;
+        /*margin: auto;*/
+        #border: 5px solid red !important;
+        width: 70%;
+        height: 340px;
+    }
+
+    #ruleta_1 {}
+
+    #ruleta_2 {
+        text-align: center !important;
+    }
+
+    #ruleta_3 {
+        opacity: 100%;
+        text-align: end !important;
+        font-weight: bold;
+    }
+
+    #ruleta_4 {
+        text-align: center !important;
+    }
+    /*-------RULETA -------------*/
 
   /*----------------Portafolio------------------------*/
 
