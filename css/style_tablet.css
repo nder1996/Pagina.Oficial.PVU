@@ -323,33 +323,49 @@
 
     /*-------RULETA -------------*/
     .Ruleta {
-        font-size: calc(1em + 0.5vw) !important;
+        font-size: calc(1em + 1vw) !important;
+        padding-left: 50px;``
         #opacity: 50%;
         position: relative;
         #left: 30%;
         text-align: center;
         margin-top: 10px;
         /*margin: auto;*/
-        #border: 5px solid red !important;
-        width: 70%;
-        height: 340px;
+      #  border: 5px solid red !important;
+        width: 75%;
+        height: 380px;
+        margin: auto;
     }
 
-    #ruleta_1 {}
+    .Ruleta p{
+      #border:5px solid red;
+
+    }
+
+    #ruleta_1 {  text-align: start !important;  margin-top:5% !important;}
 
     #ruleta_2 {
         text-align: center !important;
+          margin-top:5% !important;
     }
 
     #ruleta_3 {
         opacity: 100%;
         text-align: end !important;
         font-weight: bold;
+          margin-top:5% !important;
     }
 
     #ruleta_4 {
         text-align: center !important;
+          margin-top:5% !important;
     }
+
+    #ruleta_5 {
+        text-align: start !important;
+          margin-top:5% !important;
+    }
+
     /*-------RULETA -------------*/
 
   /*----------------Portafolio------------------------*/
