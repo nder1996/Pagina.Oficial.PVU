@@ -1,13 +1,677 @@
 @media (min-width: 1651px) {
   .Principal {
-    display: none !important;
+    #border: 5px solid red;
+    height: 100% !important;
   }
 
-  body {
-    #border: 5px solid black;
-    background-image: url('/img/Mantenimiento.png');
-    background-repeat: no-repeat !important;
-    background-attachement: fixed;
-    background-position: 50% -10%;
+  /*--------------NAV---------*/
+  .navbar-brand img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2%;
+    top: -1px;
+  }
+
+  .navbar-brand span {
+    position: relative;
+    margin-left: 0.05%;
+    top: 0.7vh !important;
+    font-size: calc(1em + 0.01vw) !important;
+    color: #3f87b3 !important;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav li {
+    position: relative;
+    font-size: calc(1em + 0.2vw) !important;
+    text-align: right;
+    padding-right: 10px !important;
+    #border: 6px solid red;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: #3f87b3 !important;
+  }
+
+  nav li a {
+    color: #3f87b3 !important;
+  }
+
+  nav .Contact button {
+    background-color: rgb(51, 128, 175);
+    border-radius: 6px;
+    color: white !important;
+  }
+
+  nav {
+    border: transparent !important;
+    background: #fafaf9 !important;
+  }
+
+  /*--------------NAV---------*/
+  /*--------------MODAL TABS---------*/
+  .title_modal_contact {
+    font-size: calc(1em + 1vw) !important;
+    font-family: 'Poppins', sans-serif;
+    color: #3f87b3 !important;
+  }
+
+  .nav_modal_tabs {
+    width: 80% !important;
+    margin-bottom: 10px;
+    position: relative;
+    top: -3px !important;
+    left: 10% !important;
+  }
+
+  .nav_modal_tabs li {
+    margin: auto !important;
+  }
+
+  .nav_modal_tabs button {
+    font-size: calc(1em + 2.1vw) !important;
+    color: #3f87b3 !important;
+  }
+
+  .nav-pills .nav-link.active,
+  .show>.nav-pills .nav-link {
+    color: black !important;
+    background: #3f87b3 !important;
+    color: #fafaf9 !important;
+  }
+
+  #formulario_modal {
+    position: relative;
+    #top: -15vw;
+    right: 4% !important;
+    border: transparent;
+    width: 50% !important;
+    height: 100%;
+  }
+
+  #formulario_modal input {
+    position: relative;
+    #border: 5px solid red;
+    margin-top: 0px !important;
+    top: -0px !important;
+  }
+
+  #formulario_modal textarea {
+    margin-top: 0px !important;
+  }
+
+  #formulario_modal form {
+    z-index: 100;
+    position: absolute;
+    border-radius: 3%;
+    margin-top: 10% !important;
+    padding: 25px !important;
+    width: 94% !important;
+    left: 12% !important;
+    height: 520px !important;
+  }
+
+  #formulario_modal form textarea {
+    #border: 4px solid red !important;
+    height: 90px !important;
+  }
+
+  #formulario_modal img {
+    position: relative;
+    left: 32% !important;
+    width: 650px !important;
+    height: 600px !important;
+    display: block;
+    #border: 5px solid red !important;
+  }
+
+  #formulario_modal button {
+    font-size: calc(1em + 0.2vw) !important;
+  }
+
+  #modal_collaborations {
+    position: relative;
+    display: flex;
+    #border: 5px solid blue !important;
+    width: 100% !important;
+    height: 500px;
+    margin-top: 50px;
+    padding-bottom: 52% !important;
+  }
+
+  #modal_collaborations .envio_datos {
+    #border: 5px solid red;
+  }
+
+  #modal_collaborations h1 {
+    #border: 4px solid red;
+    font-size: calc(1em + 1.5vw) !important;
+  }
+
+  #modal_collaborations p {
+    font-size: calc(1em + 0.3vw) !important;
+    #border: 5px solid red;
+    text-align: justify;
+    width: 100%;
+    position: relative;
+    top: 3px !important;
+  }
+
+  #modal_collaborations textarea {
+    position: relative;
+    top: 1vw;
+    height: 140px !important;
+    #margin-bottom: 0px !important;
+  }
+
+  #modal_collaborations .img_colab {
+    #border:5px solid red;
+    display: block;
+    position: relative;
+    right: 3.5%;
+    top: 0px;
+    width: 70% !important;
+    height: 500px !important;
+  }
+
+  #modal_collaborations img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #section_send_upload_data {
+    #border: 5px solid red;
+    font-size: calc(1em + 0.5vw) !important;
+    position: relative;
+    top: 1vh;
+    justify-content: flex-end !important;
+    #right: 9%;
+  }
+
+  #modal_btn {
+    width: 40%;
+    #border: 5px solid red;
+    font-size: calc(1em + 0.09vw) !important;
+  }
+
+  .btn_modal {
+    background-color: #3f87b3 !important;
+    color: white !important;
+  }
+
+  /*--------------MODAL TABS---------*/
+  /*----------------Portada------------------------*/
+  .Presentacion {
+    position: relative;
+    #top: 0px;
+    #border: 5px solid red;
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .fondo_presentacion {
+    position: relative;
+    #border: 5px solid red;
+    width: 100% !important;
+    height: 672px !important;
+  }
+
+  .Presentacion .txt_portada {
+    z-index: 100;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 40% !important;
+    #border: 5px solid red;
+  }
+
+  .Presentacion .txt_1 {
+    font-family: Poppins;
+    font-size: 1.8vw;
+    color: #F79C41 !important;
+  }
+
+  .Presentacion .txt_2 {
+    z-index: 100;
+    position: relative;
+    font-family: Poppins;
+    font-size: 2.5vw;
+    color: #222222;
+    z-index: 1000;
+  }
+
+  .Presentacion .txt_3 {
+    display: block;
+    font-size: 1.3vw;
+  }
+
+  .Presentacion button {
+    margin-top: 7%;
+    #border: 6px solid yellow !important;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1vw !important;
+    z-index: 100;
+    width: 155px;
+    height: 47px;
+    left: 135px;
+    background: #3380AF !important;
+  }
+
+  /*
+  /*----------------Portada------------------------*/
+  /*----------------Portafolio------------------------*/
+  .secundario {
+    position: relative;
+    top: -50px;
+    background-color: #f9f9f8 !important;
+    #border: 5px solid blue;
+    height: 100% !important;
+  }
+
+  .secundario .Portafolio {
+    background-color: #f9f9f8 !important;
+    #border: 5px solid yellow;
+    flex-wrap: wrap !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Portafolio .txt_portafolio {
+    overflow: hidden !important;
+  #  border: 5px solid green;
+    width: 35%;
+  }
+
+  .Portafolio .dispositivos {
+    position: relative;
+    text-align: center !important;
+    left:1%;
+  #  border: 5px solid black !important;
+    width: 62% !important;
+  }
+
+  .Portafolio img {
+    position: relative;
+    #right: 2%;
+    #border: 5px solid purple;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .Portafolio section h1 {
+    width: 100%;
+    text-align: center;
+    #border: 5px solid blue;
+    position: relative;
+    margin-top: 10%;
+    font-family: Poppins;
+    font-size: 4vw;
+  }
+
+
+  /*-------RULETA -------------*/
+  .Ruleta {
+      font-size: calc(1em + 0.5vw) !important;
+      #opacity: 50%;
+      position: relative;
+      left: 30%;
+      text-align: start;
+      margin-top: 10px;
+      /*margin: auto;*/
+      #border: 5px solid red !important;
+      width: 70%;
+      height: 340px;
+  }
+
+  #ruleta_1 {}
+
+  #ruleta_2 {
+      text-align: center !important;
+  }
+
+  #ruleta_3 {
+      opacity: 100%;
+      text-align: end !important;
+      font-weight: bold;
+  }
+
+  #ruleta_4 {
+      text-align: center !important;
+  }
+  /*-------RULETA -------------*/
+
+
+  /*----------------Portafolio------------------------*/
+  /*----------------Publicidad------------------------*/
+  /* PORTAFOLIOS DE SERVICIOS */
+  .Publicidad_Img h1 {
+    margin-top: 5%;
+    #border: 4px solid purple;
+    font-size: 5vw !important;
+  }
+
+  .Publicidad_Img p {
+    margin: auto;
+    width: 40%;
+    #border: 5px solid red;
+    margin-top: 4% !important;
+    font-size: 1.5vw !important;
+    margin-bottom: 3%;
+  }
+
+  .Portafolio_Servicios h2 {
+    #border: 4px solid red;
+    #font-size: 1.5vw !important;
+    font-family: Poppins !important;
+  }
+
+  .Portafolio_Servicios {
+    position: relative;
+    margin: auto;
+    top: -30px;
+    #border: 5px solid purple !important;
+    margin-bottom: 0% !important;
+    #padding-bottom: 35px;
+    width: 92% !important;
+    height: 100% !important;
+    padding: 0px !important;
+  }
+
+  .accordion {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .accordion-item {
+    position: relative;
+    right: 1%;
+    #border-left: 5px solid red !important;
+    margin: auto;
+    width: 18% !important;
+    height: 100%;
+    margin-top: 5% !important;
+    margin-bottom: 2.5% !important;
+    margin-left: 2% !important;
+    border: none;
+  }
+
+  .accordion-button {
+    font-size: 1vw !important;
+    background-color: #fafaf9 !important;
+    border: none;
+  }
+
+  /* PORTAFOLIOS DE SERVICIOS*/
+  /*TABS FORMULARIO Y Collaborations*/
+  /*.Marco_Tabs_Principal{
+    border:5px solid yellow;
+    width: 10% !important;
+  }*/
+  .Tabs_Principal {
+    position: relative;
+    right: 5%;
+    #border: 5px solid blue !important;
+    width: 110% !important;
+  }
+
+  .Tabs_Principal li {
+    margin: auto;
+    font-size: 1.8vw !important;
+    font-family: Poppins !important;
+    #color: black !important;
+  }
+
+  .Tabs_Principal li button {
+    color: black !important;
+  }
+
+  .Marco_Tabs_Principal {
+    #border: 5px solid yellow !important;
+    margin: auto;
+    width: 90% !important;
+  }
+
+  /*----------------Publicidad------------------------*/
+  /*----------------Formulario------------------------*/
+  .Formulario {
+    #border: 5px solid purple;
+    text-align: center;
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .Formulario form {
+  #border:5px solid blue;
+    position: absolute;
+    margin-top: 40px !important;
+    margin-left:5% !important;
+    z-index: 100;
+    padding: 40px;
+    background: #C3212C;
+    border-radius: 17px;
+    #right: 37% !important;
+    width: 470px !important;
+  }
+
+  .Formulario form input {
+    #border: 5px solid red;
+    margin-top: 7%;
+    height: 3.5vh;
+  }
+
+  .Formulario form textarea {
+    margin-top: 7%;
+    height: 110px !important;
+  }
+
+  .Formulario img {
+    border:5px solid red;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .Formulario form p {
+    border: 1px solid #F79C41;
+    width: 100%;
+  }
+
+  .Formulario form h1 {
+    position: relative;
+    color: #F8F8F8;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 36px;
+  }
+
+  .Formulario form h3 {
+    position: relative;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #F8F8F8;
+  }
+
+  .Formulario button {
+    font-size: calc(1em + 0.2vw) !important;
+    color: white;
+    width: 131.77px;
+    height: 41.34px;
+    background: #3f87b3 !important;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+  }
+
+  /*----------------Formulario------------------------*/
+  /*----------------Colaboracion------------------------*/
+  .Collaborations {
+    position: relative;
+    top: -30px !important;
+    margin: auto;
+    #border: 3px solid purple;
+    #padding: 25px;
+    background-color: #F79C41;
+    width: 100% !important;
+    height:calc(1em + 0.2vw) ! !important;
+  }
+
+  .envio_datos {
+    #border: 5px solid red;
+    padding: 35px;
+    background-color: #F79C41;
+    width: 100% !important;
+  }
+
+  .envio_datos h1 {
+    padding-top: 20px!important;
+    #border:6px solid red;
+    font-size: calc(1em + 2vw) !important;
+  }
+
+  .envio_datos p {
+    #margin: auto;
+    width: 100% !important;
+    font-size: calc(1em + 0.8vw) !important;
+    text-align: justify;
+    width: 80% !important;
+    position: relative;
+    margin-top: 5%;
+    #border: 5px solid blue !important;
+  }
+
+  .envio_datos textarea {
+    position: relative;
+    margin-top: 5% !important;
+    right: 0%;
+    width: 100% !important;
+    #border: 4px solid red !important;
+    height: 200px !important;
+  }
+
+  .Collaborations .img_colab {
+    #border:5px solid red;
+    position: relative;
+    left: 0%;
+    #top: -6.6%;
+    width: 55%;
+    height: 100% ! !important;
+  }
+
+  .Collaborations img {
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .btn_enviar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end !important;
+    #border: 5px solid red !important;
+    margin-top: 10% !important;
+    width: 100% !important;
+    font-size: calc(1em + 0.8vw) !important ;
+  }
+
+  .btn_send {
+    font-size: calc(1em + 0.1vw) !important;
+    width: 20%;
+    height: 55px;
+    background: #3380AF;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: #F8F8F8;
+  }
+
+  /*----------------Colaboracion------------------------*/
+  /*----------------Footer------------------------*/
+  .footer {
+    position: relative;
+    margin-top: 2% !important;
+    #border: 5px solid red;
+    margin: auto;
+    height: 100% !important;
+    width: 82%;
+    border-bottom: 1px solid black;
+  }
+
+  .footer section {
+    flex-direction: row !important;
+    #border: 5px solid yellow;
+    width: 50%;
+  }
+
+  .punto_home {
+    color: #3f87b3 !important;
+    font-size: 0.7vw !important;
+  }
+
+  .footer ul {
+    padding: 0px !important;
+    width: 100%;
+    #border: 5px solid red;
+    text-align: left !important;
+  }
+
+  .footer ul li {
+    color: #3f87b3 !important;
+    font-family: Poppins;
+    font-size: 1.3vw !important;
+    #border: 5px solid red;
+    padding: 0px !important;
+    text-align: start !important;
+    display: inline;
+    list-style: none;
+    margin-left: 7%;
+  }
+
+  .icons_footer {
+    width: 50% !important;
+    text-align: end !important;
+    #border: 5px solid yellow;
+    margin-top:  !important;
+    padding-bottom: 15px !important;
+  }
+
+  .icons_footer svg {
+    position: relative;
+    margin-top: 1.4%;
+    font-size: 1.3vw !important;
+    margin-left: 8%;
+    right: 3% !important;
+  }
+
+  /*----------------Footer------------------------*/
+  /*----------------End_page------------------------*/
+  .end_page {
+    position: relative;
+    top: -100px !important;
+    font-size: 14px;
+    margin: auto;
+    width: 80%;
+    #border: 5px solid red !important;
+  }
+
+  .end_page section {
+    text-align: center !important;
+    margin: auto;
+    font-size: 1.2vw !important;
+    #border: 5px solid purple;
+    width: 70% !important;
+    margin-top: 8% !important;
+  }
+
+  .end_pagina_img {
+    position: relative;
+    top: -10px;
+  }
+
+  .end_page img {
+    position: relative;
+    width: 60px;
+    height: 60px;
   }
 }
