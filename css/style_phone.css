@@ -10,6 +10,30 @@
   }
 
 
+  /*-------btn traducir------------*/
+
+  .btn_traducir{
+    position:relative;
+    top:5px !important;
+      background: #fafaf9 !important;
+  }
+
+  .btn_traducir button{
+      background: #fafaf9 !important;
+    outline:none;
+    border:none;
+    #border:5px solid red !important;
+    #width:200px;
+  }
+
+  .btn_traducir a{
+    display: inline;
+    cursor:pointer;
+  }
+
+  /*-------------------*/
+
+
   /*--------------NAV---------*/
   .navbar-brand img {
     position: absolute;

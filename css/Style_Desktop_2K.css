@@ -7,11 +7,13 @@
   /*-------btn traducir------------*/
 
   .btn_traducir{
+      background: #fafaf9 !important;
     position:relative;
     top:5px !important;
   }
 
   .btn_traducir button{
+      background: #fafaf9 !important;
     outline:none;
     border:none;
     #border:5px solid red !important;
@@ -45,7 +47,7 @@
 
   nav li {
     position: relative;
-    font-size: calc(1em + 0.5vw) !important;
+    font-size: calc(1em + 0.2vw) !important;
     text-align: right;
     padding-right: 10px !important;
     #border: 6px solid red;
@@ -62,7 +64,7 @@
     background-color: rgb(51, 128, 175);
     border-radius: 6px;
     color: white !important;
-    font-size: calc(1px + 1.2vw) !important;
+    font-size: calc(1px + 1vw) !important;
   }
 
   nav {

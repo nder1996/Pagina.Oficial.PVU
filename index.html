@@ -2,327 +2,345 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PVU</title>
-  <link rel="shortcut icon" href="img/Logo.png">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
-  <!--FUENTE POPPINS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <!--FUENTE POPPINS-->
-  <!--Responsive Desing-->
-  <link rel="stylesheet" href="css/Style_Desktop.css">
-  <link rel="stylesheet" href="css/Style_Desktop_2k.css">
-  <link rel="stylesheet" href="css/Style_Phone.css">
-  <link rel="stylesheet" href="css/Style_Tablet.css">
-  <!--Responsive Desing-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PVU</title>
+    <link rel="shortcut icon" href="img/Logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!--FUENTE POPPINS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!--FUENTE POPPINS-->
+    <!--Responsive Desing-->
+    <link rel="stylesheet" href="css/Style_Desktop.css">
+    <link rel="stylesheet" href="css/Style_Desktop_2k.css">
+    <link rel="stylesheet" href="css/Style_Phone.css">
+    <link rel="stylesheet" href="css/Style_Tablet.css">
+    <!--Responsive Desing-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/all.min.js"></script>
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/Efecto.js"></script>
 </head>
 
 <body>
-  <img style='display:none;' class="mantenimiento" src="img/Mantenimiento.png" alt="">
-  <div class='Principal'>
-    <!-- Modal -->
-    <div class="modal fade modal_principal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content modal_contenido">
-          <div class="modal-header">
-            <h5 class="modal-title title_modal_contact" id="exampleModalLabel">Contact Us</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="Tabs_modal modal-body">
-            <ul class="nav nav_modal_tabs nav-pills mb-3" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-contacts-tab" data-bs-toggle="pill" data-bs-target="#formulario_modal" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
-                    class="ico_contact far fa-address-book"></i></button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-Collaborations-tab" data-bs-toggle="pill" data-bs-target="#collaborations_modal" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-users"></i></button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div class="Formulario tab-pane fade show active" id="formulario_modal" role="tabpanel" aria-labelledby="pills-home-tab">
-                <form action="" class='mt-1'>
-                  <h1 class='text-start'>Contact Us</h1>
-                  <p></p>
-                  <h3 class='text-start'>What are you looking to create with us?</h3>
-                  <br>
-                  <section>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"><br>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email"><br>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"><br>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
-                  </section>
-                  <section class='form_submit text-end mt-4'>
-                    <button type="button">Submit</button>
-                  </section>
-                </form>
-                <img class='' src="img/Recursos_Humanos.png" alt="">
-              </div>
-              <div class="tab-pane  fade" id="collaborations_modal" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <div class='Collaborations' id='modal_collaborations'>
-                  <section class='img_colab text-center'>
-                    <img src="img/web_prueba.png" alt="">
-                  </section>
-                  <section class='envio_datos' id='envio_datos_modal'>
-                    <h1>For Collaborations</h1>
-                    <p class='txt_datos'>
-                      Do you want to acquire the experience you are looking for with real projects?
+    <img style='display:none;' class="mantenimiento" src="img/Mantenimiento.png" alt="">
+    <div class='Principal'>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pl-7  pr-7">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    <span>&nbsp;&nbsp;Company Name</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-2" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Briefcase</a>
+                        </li>
+                        <li class="Contact nav-item">
+                            <button type="button" name="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Contact us
+                            </button>
+                        </li>
+                        <li class="btn_traducir nav-item">
+                            <button>
+                                <a class="nav-link" href="#">Eng</a> /
+                                <a class="nav-link" href="#">Esp</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class='Presentacion d-flex mb-5 mt-5'>
+            <section class='txt_portada'>
+                <h3 class='txt_1'>Digital Products</h3> <br>
+                <h3 class='txt_2'>Who we are?</h3> <br>
+                <h3 class='txt_3'>
+                    Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard.
+                </h3>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Get more details
+                </button>
+            </section>
+            <img class='fondo_presentacion' src="img/svg_1.png" alt="">
+        </div>
+        <div class='secundario'>
+            <div class='Portafolio d-flex mt-5'>
+                <section class='txt_portafolio'>
+                    <h1>What we do</h1> <br>
+                    <div class='Ruleta'>
+                    </div>
+                </section>
+                <section class='dispositivos text-end'>
+                    <img class='img-fluid' src="/img/dispositivos.1.png" alt="">
+                </section>
+            </div>
+            <div class='Publicidad_Img mt-5'>
+                <section class='text-center'>
+                    <h1>
+                        Our Portfolio
+                    </h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
-                    <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
-                    <section class='btn_enviar' id='section_send_upload_data'>
-                      <label for="file-upload" class="subir mt-2">
-                        <i class="fas fa-paperclip"></i>&nbsp;&nbsp;Attatch a cv
-                      </label>&nbsp;&nbsp;&nbsp;&nbsp;
-                      <input id="file-upload" type="file" style='display: none;' />
-                      <input class='btn_send' id='modal_btn' type="submit" value="Upload">
-                    </section>
-                  </section>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn_modal" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- VENTANA MODAL -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pl-7  pr-7">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          <span>&nbsp;&nbsp;Company Name</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mt-2" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Briefcase</a>
-            </li>
-            <li class="Contact nav-item">
-              <button type="button" name="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Contact us
-              </button>
-            </li>
-
-            <li class="btn_traducir nav-item">
-              <button>
-                <a class="nav-link" href="#">Eng</a> /
-                <a class="nav-link" href="#">Esp</a>
-              </button>
-
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class='Presentacion d-flex mb-5 mt-5'>
-      <section class='txt_portada'>
-        <h3 class='txt_1'>Digital Products</h3> <br>
-        <h3 class='txt_2'>Who we are?</h3> <br>
-        <h3 class='txt_3'>
-          Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard.
-        </h3>
-        <button class='text-white'>
-          Get more details
-        </button>
-      </section>
-      <img class='fondo_presentacion' src="img/svg_1.png" alt="">
-    </div>
-    <div class='secundario'>
-      <div class='Portafolio d-flex mt-5'>
-        <section class='txt_portafolio'>
-          <h1>What we do</h1> <br>
-          <div class='Ruleta'>
-          </div>
-        </section>
-        <section class='dispositivos text-end'>
-          <img class='img-fluid' src="/img/dispositivos.1.png" alt="">
-        </section>
-      </div>
-      <div class='Publicidad_Img mt-5'>
-        <section class='text-center'>
-          <h1>
-            Our Portfolio
-          </h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
-          <div class='Portafolio_Servicios'>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    Car Workshop
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img class='img-fluid mb-2' src="img/pagina_1.png" alt=""> <br>
-                    <strong>This is the first item's accordion body.</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Mall
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img class='img-fluid mb-2' src="img/pagina_2.png" alt=""> <br>
-                    <strong>This is the second item's accordion body.</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Barber Shop
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img class='img-fluid mb-2' src="img/pagina_3.png" alt=""> <br>
-                    <strong>This is the third item's accordion body.</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_1" aria-expanded="false" aria-controls="collapseThree">
-                    kit Web
-                  </button>
-                </h2>
-                <div id="collapseThree_1" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img class='img-fluid mb-2' src="img/pagina_4.png" alt=""> <br>
-                    <strong>This is the third item's accordion body.</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2" aria-expanded="false" aria-controls="collapseThree">
-                    Desktop Database Software
-                  </button>
-                </h2>
-                <div id="collapseThree_2" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img class='img-fluid mb-2' src="img/pagina_5.png" alt=""> <br>
-                    <strong>This is the third item's accordion body.</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class='Marco_Tabs_Principal'>
-        <ul class="Tabs_Principal nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-principal-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-principal-contacts" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Contact Us</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-principal-collaborations-tab" data-bs-toggle="pill" data-bs-target="#pills-principal-collaborations" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Collaborations</button>
-          </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-principal-contacts" role="tabpanel" aria-labelledby="pills-principal-contacts-tab">
-            <div class='Formulario text-center'>
-              <form action="" class='mt-4'>
-                <h1 class='text-start'>Contact Us</h1>
-                <p></p>
-                <h3 class='text-start'>What are you looking to create with us?</h3>
-                <section>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                    <div class='Portafolio_Servicios'>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Car Workshop
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img class='img-fluid mb-2' src="img/pagina_1.png" alt=""> <br>
+                                        <strong>This is the first item's accordion body.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Mall
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img class='img-fluid mb-2' src="img/pagina_2.png" alt=""> <br>
+                                        <strong>This is the second item's accordion body.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Barber Shop
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img class='img-fluid mb-2' src="img/pagina_3.png" alt=""> <br>
+                                        <strong>This is the third item's accordion body.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_1" aria-expanded="false" aria-controls="collapseThree">
+                                        kit Web
+                                    </button>
+                                </h2>
+                                <div id="collapseThree_1" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img class='img-fluid mb-2' src="img/pagina_4.png" alt=""> <br>
+                                        <strong>This is the third item's accordion body.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2" aria-expanded="false" aria-controls="collapseThree">
+                                        Desktop Database Software
+                                    </button>
+                                </h2>
+                                <div id="collapseThree_2" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img class='img-fluid mb-2' src="img/pagina_5.png" alt=""> <br>
+                                        <strong>This is the third item's accordion body.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                <section class='form_submit text-end mt-4'>
-                  <button type="button">Submit</button>
-                </section>
-              </form>
-              <img class='img-fluid' src="img/Recursos_Humanos.png" alt="">
             </div>
-          </div>
-          <div class="tab-pane collaborations_Principal fade" id="pills-principal-collaborations" role="tabpanel" aria-labelledby="pills-principal-collaborations-tab">
-            <div class='Collaborations d-flex mt-5 mb-5'>
-              <section class='img_colab'>
-                <img src="img/web_prueba.png" alt="">
-              </section>
-              <section class='envio_datos'>
-                <h1>For Collaborations</h1>
-                <p class='txt_datos'>
-                  Do you want to acquire the experience you are looking for with real projects?
-                </p>
-                <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
-                <section class='btn_enviar mt-4'>
-                  <label for="file-upload" class="subir mt-2">
-                    <i class="fas fa-paperclip"></i>&nbsp;Attatch a cv
-                  </label>&nbsp;&nbsp;&nbsp;&nbsp;
-                  <input id="file-upload" type="file" style='display: none;' />
-                  <input class='btn_send' type="submit" value="Upload">
-                </section>
-              </section>
+            <div class='Marco_Tabs_Principal'>
+                <ul class="Tabs_Principal nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-principal-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-principal-contacts" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Contact Us</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-principal-collaborations-tab" data-bs-toggle="pill" data-bs-target="#pills-principal-collaborations" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Collaborations</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-principal-contacts" role="tabpanel" aria-labelledby="pills-principal-contacts-tab">
+                        <div class='Formulario text-center'>
+                            <form action="" class='mt-4'>
+                                <h1 class='text-start'>Contact Us</h1>
+                                <p></p>
+                                <h3 class='text-start'>What are you looking to create with us?</h3>
+                                <section>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                                </section>
+                                <section class='form_submit text-end mt-4'>
+                                    <button type="button">Submit</button>
+                                </section>
+                            </form>
+                            <img class='img-fluid' src="img/Recursos_Humanos.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tab-pane collaborations_Principal fade" id="pills-principal-collaborations" role="tabpanel" aria-labelledby="pills-principal-collaborations-tab">
+                        <div class='Collaborations d-flex mt-5 mb-5'>
+                            <section class='img_colab'>
+                                <img src="img/web_prueba.png" alt="">
+                            </section>
+                            <section class='envio_datos'>
+                                <h1>For Collaborations</h1>
+                                <p class='txt_datos'>
+                                    Do you want to acquire the experience you are looking for with real projects?
+                                </p>
+                                <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                                <section class='btn_enviar mt-4'>
+                                    <label for="file-upload" class="subir mt-2">
+                                        <i class="fas fa-paperclip"></i>&nbsp;Attatch a cv
+                                    </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input id="file-upload" type="file" style='display: none;' />
+                                    <input class='btn_send' type="submit" value="Upload">
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class='footer d-flex mb-5'>
+                <section class="text-start">
+                    <ul>
+                        <li>Home</li>
+                        <li>About us</li>
+                        <li>Services</li>
+                        <li>News</li>
+                    </ul>
+                </section>
+                <section class='icons_footer text-end'>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-youtube"></i>
+                </section>
+            </div>
+            <div class='end_page d-flex justify-content-between'>
+                <section class='mt-4'>
+                    <p>© 2021 Companyname. All rights reserved.</p>
+                </section>
+                <section class='end_pagina_img'>
+                    <img src="img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                </section>
+                <section class='mt-4'>
+                    <p>Terms of Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy</p>
+                </section>
+            </div>
         </div>
-      </div>
-      <div class='footer d-flex mb-5'>
-        <section class="text-start">
-          <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Services</li>
-            <li>News</li>
-          </ul>
-        </section>
-        <section class='icons_footer text-end'>
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-vimeo-v"></i>
-          <i class="fab fa-youtube"></i>
-        </section>
-      </div>
-      <div class='end_page d-flex justify-content-between'>
-        <section class='mt-4'>
-          <p>© 2021 Companyname. All rights reserved.</p>
-        </section>
-        <section class='end_pagina_img'>
-          <img src="img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-        </section>
-        <section class='mt-4'>
-          <p>Terms of Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy</p>
-        </section>
-      </div>
     </div>
-  </div>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/all.min.js"></script>
-  <script type="text/javascript" src="js/JQuery.js"></script>
-  <script type="text/javascript" src="js/popper.js"></script>
-  <script type="text/javascript" src="js/Efecto.js"></script>
+    <!-- Modal Contactos-->
+    <div class="modal fade modal_principal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content modal_contenido">
+                <div class="modal-header">
+                    <h5 class="modal-title title_modal_contact" id="exampleModalLabel">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="Tabs_modal modal-body">
+                    <ul class="nav nav_modal_tabs nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-contacts-tab" data-bs-toggle="pill" data-bs-target="#formulario_modal" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="ico_contact far fa-address-book"></i></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Collaborations-tab" data-bs-toggle="pill" data-bs-target="#collaborations_modal" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-users"></i></button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="Formulario tab-pane fade show active" id="formulario_modal" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <form action="" class='mt-1'>
+                                <h1 class='text-start'>Contact Us</h1>
+                                <p></p>
+                                <h3 class='text-start'>What are you looking to create with us?</h3>
+                                <br>
+                                <section>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name"><br>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email"><br>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"><br>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                                </section>
+                                <section class='form_submit text-end mt-4'>
+                                    <button type="button">Submit</button>
+                                </section>
+                            </form>
+                            <img class='' src="img/Recursos_Humanos.png" alt="">
+                        </div>
+                        <div class="tab-pane  fade" id="collaborations_modal" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class='Collaborations' id='modal_collaborations'>
+                                <section class='img_colab text-center'>
+                                    <img src="img/web_prueba.png" alt="">
+                                </section>
+                                <section class='envio_datos' id='envio_datos_modal'>
+                                    <h1>For Collaborations</h1>
+                                    <p class='txt_datos'>
+                                        Do you want to acquire the experience you are looking for with real projects?
+                                    </p>
+                                    <textarea class="txt_info form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                                    <section class='btn_enviar' id='section_send_upload_data'>
+                                        <label for="file-upload" class="subir mt-2">
+                                            <i class="fas fa-paperclip"></i>&nbsp;&nbsp;Attatch a cv
+                                        </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input id="file-upload" type="file" style='display: none;' />
+                                        <input class='btn_send' id='modal_btn' type="submit" value="Upload">
+                                    </section>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn_modal" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Contactos-->
+    <!-- Ventana Modal Detalles -->
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ventana Modal Detalles -->
 </body>
 
 </html>
