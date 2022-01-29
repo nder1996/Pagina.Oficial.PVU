@@ -1,0 +1,68 @@
+{
+    "es":
+    {
+
+        "name": "Nombre De La Empresa",
+        "home": "Inicio",
+        "about": "Sobre Nosotros",
+        "services": "Servicios",
+        "briefcase": "Portafolio",
+        "contact": "Contacta Con Nosotros",
+        "Presentacion_txt_1": "Productos Digitales",
+        "Presentacion_txt_2": "¿Quiénes somos?",
+        "Presentacion_txt_3": "Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el estándar de la industria.",
+        "Presentacion_btn": "Obtener más detalles",
+        "modal_title_2": "Colaboraciones",
+        "modal_form_title": "Contacta con nosotros",
+        "modal_form_info": "¿Qué buscas crear con nosotros?",
+        "modal_form_btn": "enviar",
+        "modal_collaboration_title": "Para colaboraciones",
+        "modal_collaboration_info": "¿Quieres adquirir la experiencia que buscas con proyectos reales?",
+        "modal_collaboration_btn": "Subir",
+        "modal_collaboration_icon": "Adjuntar CV",
+        "title_portfolio": "Nuestro Portafolio",
+        "info_portfolio": "Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.",
+        "accordion_items_1": "Taller De Autos",
+        "accordion_items_2": "Centro Comercial",
+        "accordion_items_3": "Barbería",
+        "accordion_items_4": "Kit Web",
+        "accordion_items_5": "Software De Base De Datos",
+        "end_page_1": "© 2021 Nombre de la empresa. Reservados todos los derechos",
+        "end_page_2": "Términos de política",
+        "end_page_3": "privacidad del servicio"
+
+    },
+
+
+    "en":
+    {
+        "name": "Company Name",
+        "home": "Home",
+        "about": "About us",
+        "services": "Services",
+        "briefcase": "Briefcase",
+        "contact": "contact us",
+        "Presentacion_txt_1": "Digital Products",
+        "Presentacion_txt_2": "Who we are?",
+        "Presentacion_txt_3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+        "Presentacion_btn": "Get more details",
+        "modal_title_2": "Collaborations",
+        "modal_form_title": "contact us",
+        "modal_form_info": "What are you looking to create with us?",
+        "modal_form_btn": "enviar",
+        "modal_collaboration_title": "For Collaborations",
+        "modal_collaboration_info": "Do you want to acquire the experience you are looking for with real projects?",
+        "modal_collaboration_btn": "Upload",
+        "modal_collaboration_icon": "Attatch a cv",
+        "title_portfolio": "Our Portfolio",
+        "info_portfolio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "accordion_items_1": "Car Workshop",
+        "accordion_items_2": " Mall",
+        "accordion_items_3": "Barber Shop",
+        "accordion_items_4": "kit Web",
+        "accordion_items_5": "Desktop Database Software",
+        "end_page_1": "© 2021 Companyname. All rights reserved.",
+        "end_page_2": "Terms of Service",
+        "end_page_3": "Privacy Policy"
+    }
+}

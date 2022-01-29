@@ -268,7 +268,7 @@
   .Presentacion .txt_3 {
     display: block;
     font-size: calc(1em + 0.5vw) !important;
-    line-height: 160% !important;
+    line-height: 2em;
   }
 
   .Presentacion button {
@@ -478,7 +478,7 @@
   /*----------------Formulario------------------------*/
   .Formulario {
     margin: auto;
-    #border: 5px solid purple;
+    border: 5px solid purple;
     text-align: center;
     width: 90% !important;
     height: 100%;
@@ -513,7 +513,7 @@
     margin: auto;
     display: block;
     width: 100%;
-    height: 40vw !important;
+    height: 800px !important;
   }
 
   .Formulario form p {
@@ -562,7 +562,7 @@
     #border: 3px solid purple;
     background-color: #F79C41;
     width: 100% !important;
-    height: 35vw !important;
+    height: 32vw !important;
   }
 
   .envio_datos {
