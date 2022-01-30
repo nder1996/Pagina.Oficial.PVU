@@ -1,31 +1,12 @@
 $(document).ready(function() {
 
-
-  /*$('.nav-link').click(function() {
-    var active = $(this).attr("id");
-    if (active == 'pills-contacts-tab') {
-      $('.modal_title_contacts').html(`<h5 class="title_modal_contact modal-title lang" key='${contact}'  id="exampleModalLabel"></h5>`)
-    } else {
-      $('.modal_title_contacts').html(`<h5 class="title_modal_contact modal-title"  key='${modal_title_2}' id="exampleModalLabel"></h5>`)
-    }
-  });*/
-
-
-
-
-    /*-----------------------------FUNCION RULETA------------------------------*/
-
-
-
-    var ruleta = [
-        'Web development', 'Mobile development', 'UX/UI design', 'Software development', 'Responsive web design'
-    ]
+  var ruleta = ['Web development', 'Mobile development', 'UX/UI design', 'Software development', 'Responsive web design']
+  var ruleta_esp = ['desarrollo web', 'desarrollo móvil', 'Experiencia de usuario UX / Diseño de interfaz de usuario UI', 'Desarrollo de software', 'Diseño web adaptable']
 
     let random_vector = []
     let j = 0;
 
     function Aleatorio() {
-
         for (let i = 1; i <= 20; i++) {
             let num_aletorio = 0 + Math.floor(Math.random() * 5)
             if (random_vector.length == 0) {
@@ -55,12 +36,21 @@ $(document).ready(function() {
             }
         }
         let contador = 0;
+        //console.log('LocalStorage verificar : ',localStorage)
+        //console.log('Este es el localStorage',localStorage.getItem('lang','es'))
         for (let i = 1; i <= 5; i++) {
-            console.log('contador : ', contador = contador + 1)
+            //console.log('contador : ', contador = contador + 1)
             setTimeout(function() {
-                $(".Ruleta").append(`<p class='text_ruleta' id='ruleta_${i}'>${ruleta[random_vector[i-1]]}</p>`)
-            }, `${i}000`);
+                if(localStorage.getItem('lang','es')!='es'){
+                      $(".Ruleta").append(`<p class='text_ruleta' id='ruleta_${i}'>${ruleta[random_vector[i-1]]}</p>`)
+                }else{
+                      $(".Ruleta").append(`<p class='text_ruleta' id='ruleta_${i}'>${ruleta_esp[random_vector[i-1]]}</p>`)
+                }
+
+            },
+            `${i}000`);
         }
+
         setTimeout(function() {
             $(".text_ruleta").remove()
         }, `6000`);
@@ -70,8 +60,5 @@ $(document).ready(function() {
     }
 
     setInterval(Ruleta, 8000);
-
-
-    /*-----------------------------FUNCION RULETA------------------------------*/
 
 });

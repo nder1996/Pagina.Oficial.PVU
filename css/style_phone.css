@@ -257,13 +257,13 @@
   }
 
   .Presentacion button {
-    #border: 6px solid yellow !important;
+#border: 6px solid yellow !important;
     border-radius: 5px;
     outline:none;
     border:none;
-    font-size: 4vw !important;
+    font-size: 3vw !important;
     z-index: 100;
-    width: 155px;
+    width: 60% !important;
     height: 100%;
     left: 135px;
     background: #3380AF !important;
@@ -333,6 +333,10 @@
         width: 70%;
         height: 230px;
         margin: auto;
+    }
+
+    .Ruleta p{
+      text-transform: capitalize;
     }
 
     #ruleta_1 {}

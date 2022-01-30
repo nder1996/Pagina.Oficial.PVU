@@ -342,7 +342,7 @@
 
   /*-------RULETA -------------*/
   .Ruleta {
-      font-size: calc(1em + 0.5vw) !important;
+      font-size: calc(1em + 0.3vw) !important;
       #opacity: 50%;
       position: relative;
       left: 30%;
@@ -356,6 +356,7 @@
   .Ruleta p{
     #border:5px solid red;
       margin-top: 40px;
+      text-transform: capitalize
   }
 
   #ruleta_1 {}

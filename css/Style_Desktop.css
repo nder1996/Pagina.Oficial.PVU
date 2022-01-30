@@ -85,6 +85,9 @@
     /*--------------NAV---------*/
     /*--------------MODAL TABS---------*/
     .title_modal_contact {
+      width: 500px !important;
+      height: 100px !important;
+      border: 5px solid red !important;
         font-size: calc(1em + 1vw) !important;
         font-family: 'Poppins', sans-serif;
         color: #3f87b3 !important;
@@ -138,11 +141,11 @@
         z-index: 100;
         position: absolute;
         border-radius: 3%;
-        margin-top: 10% !important;
+        margin-top: 0% !important;
         padding: 25px !important;
         width: 94% !important;
         left: 12% !important;
-        height: 520px !important;
+        height: 100% !important;
     }
 
     #formulario_modal form textarea {
@@ -342,7 +345,7 @@
         position: relative;
         margin-top: 10%;
         font-family: Poppins;
-        font-size: 4vw;
+        font-size: calc(1em + 2vw) !important;
     }
 
     /*-------RULETA -------------*/
@@ -358,6 +361,7 @@
 
     .Ruleta p {
         margin-top: 12%;
+        text-transform: capitalize
     }
 
     #ruleta_1 {}

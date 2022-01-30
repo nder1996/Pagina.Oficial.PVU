@@ -281,7 +281,7 @@
     border:none;
     font-size: 2.5vw !important;
     z-index: 100;
-    width: calc(1em + 20vw) !important;
+    width: 44% !important;
     height: calc(1em + 4.5vw) !important;
     left: 135px;
     background: #3380AF !important;
@@ -363,6 +363,7 @@
 
     .Ruleta p{
       #border:5px solid red;
+      text-transform: capitalize;
 
     }
 

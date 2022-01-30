@@ -1,8 +1,8 @@
 {
     "es":
     {
-
-        "name": "Nombre De La Empresa",
+        "welcome":"Bienvenido",
+        "name": "PVU",
         "home": "Inicio",
         "about": "Sobre Nosotros",
         "services": "Servicios",
@@ -22,6 +22,7 @@
         "modal_collaboration_icon": "Adjuntar CV",
         "title_portfolio": "Nuestro Portafolio",
         "info_portfolio": "Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.",
+        "info_business":"Lo Que Hacemos",
         "accordion_items_1": "Taller De Autos",
         "accordion_items_2": "Centro Comercial",
         "accordion_items_3": "Barbería",
@@ -36,7 +37,9 @@
 
     "en":
     {
-        "name": "Company Name",
+
+        "welcome":"Welcome",
+        "name": "PVU",
         "home": "Home",
         "about": "About us",
         "services": "Services",
@@ -56,6 +59,7 @@
         "modal_collaboration_icon": "Attatch a cv",
         "title_portfolio": "Our Portfolio",
         "info_portfolio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "info_business":"What we do",
         "accordion_items_1": "Car Workshop",
         "accordion_items_2": " Mall",
         "accordion_items_3": "Barber Shop",
